@@ -1,0 +1,11 @@
+<script src="[[base]]/ui/assets/js/plugins.min.js"></script>
+<script src="[[base]]/ui/assets/js/app.min.js"></script>
+<script src="[[base]]/ui/js/base/componentes/baseComponente.js"></script>
+<script>
+    $(function(){
+        baseComponente.inicializarAjax("[[base]]");
+        var url=window.location.href;
+        url=url.replace("#basecontenido", "");
+        $("#back-top").attr("href",url+"#basecontenido");
+    });
+</script>

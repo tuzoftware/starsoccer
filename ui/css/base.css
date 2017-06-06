@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto-Regular'), url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+.container{
+    width: 95% !important;
+}
+
+#titulo{
+    background-color:#186d31;
+    font-size:30px;
+    color:white;
+    padding-left: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:Roboto;
+    font-weight: 700;
+}
+p.titulo {
+    color: #bbb;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: Roboto;
+}
+.color-base{
+    color:#186d31 !important;
+}
+.modal-advertencia{
+    color:orange;
+    font-size:40px !important;
+}
+.modal-correcto {
+    color: green;
+    font-size: 40px !important;
+}
+.modal-mensaje{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left:15px;
+    font-size: 18px;
+}
+.panel-red {
+    border-color: #d9534f;
+}
+.panel-red > .panel-heading {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: #fff;
+}
+#consola{
+    display: none;
+}
+.subir{
+    background-color: #f5f5f5;
+    min-height:150px;
+    padding: 40px;
+}
+.subir-contenido{
+    margin: 2em 0;
+    text-align: center;
+}
+.dropzone-modal{
+    background: none !important;
+    border: none !important;
+}
+.select2-container--bootstrap{
+    width: 100% !important;
+}
+.errores{
+    display: none;
+    color:red;
+}
+
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url('../fonts/font-material.woff2') format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.pagination li a{
+    border-radius: 0 !important;
+}
