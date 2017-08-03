@@ -1,17 +1,5 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : local3306
-Source Server Version : 50505
-Source Host           : 127.0.0.1:3306
-Source Database       : starsoccer
-
-Target Server Type    : MYSQL
-Target Server Version : 50505
-File Encoding         : 65001
-
-Date: 2017-06-06 11:44:49
-*/
+create database starsoccer;
+use starsoccer;
 
 SET FOREIGN_KEY_CHECKS=0;
 

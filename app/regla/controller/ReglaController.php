@@ -52,11 +52,15 @@ class ReglaController extends BaseController{
         $validadorUtil = new ValidadorUtil($regla);
         $validadorUtil->validarTexto("regla", true, 3, 50, ExpresionRegularEnum::ALFA_MEXICO_ESPACIO);
         $validadorUtil->validarTexto("estatus", true, 3, 10, ExpresionRegularEnum::ALFA_MEXICO_ESPACIO);
+
         if (!empty($regla['id_regla'])) {
             $validadorUtil->validarNumeroId("id_regla", true, 1);
         }
+
         $validadorUtil->agregarEtiquetas(
-            array('regla' => 'Regla', 'Estatus' => 'Estatus'));
+            array('regla' => 'Regla', 'Estatus' => 'Estatus')
+        );
+
         if (!$validadorUtil->validate()) {
             MensajeRespuesta::mensajesErrores($validadorUtil->getErrors());
         }
