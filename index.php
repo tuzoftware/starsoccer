@@ -128,6 +128,9 @@ if(F3::get('SESSION.id_usuario') == false) {
         Accesso::permitir('GET /reglas', 'ReglaController->index', array(RolEnum::ADMINISTRADOR));
         Accesso::permitir('POST /reglas/buscar', 'ReglaController->buscar', array(RolEnum::ADMINISTRADOR));
         Accesso::permitir('POST /reglas/guardar', 'ReglaController->guardar', array(RolEnum::ADMINISTRADOR));
+        Accesso::permitir('GET /torneo', 'TorneoController->index', array(RolEnum::ADMINISTRADOR));
+        Accesso::permitir('POST /torneo/buscar', 'TorneoController->buscar', array(RolEnum::ADMINISTRADOR));
+        Accesso::permitir('POST /torneo/guardar', 'TorneoController->guardar', array(RolEnum::ADMINISTRADOR));
     } else {
         $autenticacionController = new AutenticacionController();
         $autenticacionController->desloguearTiempoExpirado();

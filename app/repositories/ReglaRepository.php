@@ -35,6 +35,7 @@ class ReglaRepository extends BaseRepository {
     public function buscarTotal($filtros) {
         $this->sql = "SELECT COUNT(id_regla) FROM regla t WHERE 1=1 ";
 
+
         $this->construirConsulta ( $filtros, true );
         return $this->escalar ();
     }

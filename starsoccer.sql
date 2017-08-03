@@ -168,3 +168,23 @@ INSERT INTO `usuario_rol` VALUES ('14', 'admin', 'ADMINISTRADOR');
 INSERT INTO `usuario_rol` VALUES ('7', 'usuario1', 'USUARIO');
 INSERT INTO `usuario_rol` VALUES ('9', 'usuario2', 'USUARIO');
 INSERT INTO `usuario_rol` VALUES ('13', 'usuario3', 'USUARIO');
+
+
+
+CREATE TABLE `torneo` (
+  `id_torneo` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(120) NOT NULL,
+  `fecha_inicio` date NOT NULL,
+  `fecha_fin` date NOT NULL,
+  `ruta_logo` varchar(120) NOT NULL,
+  `estatus` varchar(8) NOT NULL DEFAULT 'ACTIVO',
+  PRIMARY KEY (`id_torneo`)
+ )ENGINE=InnoDB  AUTO_INCREMENT=30 DEFAULT CHARSET=utf8;
+
+ -- ----------------------------
+-- Records of usuario
+-- ----------------------------
+INSERT INTO `torneo` VALUES ('1', 'Copa Oro', '2017-03-02', '2016-01-15', 'img.hgchgchgchgchgkck', 'ACTIVO');
+INSERT INTO `torneo` VALUES ('2', 'Copa Confederaciones', '2016-08-10', '2016-09-12', 'img:gkghckghfktyfhg', 'ACTIVO');
+INSERT INTO `torneo` VALUES ('3', 'Concachampions','2016-04-04', '2016-07-23', 'img..fxgfxrxgcy', 'ACTIVO');
+INSERT INTO `torneo` VALUES ('4', 'Copa Libertadores', '2016-05-04', '2018-06-01', 'img//bcjabkjasf', 'ACTIVO');
