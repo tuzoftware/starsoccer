@@ -128,6 +128,13 @@ if(F3::get('SESSION.id_usuario') == false) {
         Accesso::permitir('GET /reglas', 'ReglaController->index', array(RolEnum::ADMINISTRADOR));
         Accesso::permitir('POST /reglas/buscar', 'ReglaController->buscar', array(RolEnum::ADMINISTRADOR));
         Accesso::permitir('POST /reglas/guardar', 'ReglaController->guardar', array(RolEnum::ADMINISTRADOR));
+
+
+        //-------
+        Accesso::permitir('GET /usuarios', 'UsuarioController->index', array(RolEnum::ADMINISTRADOR));
+        Accesso::permitir('POST /usuarios/buscar', 'UsuarioController->buscar', array(RolEnum::ADMINISTRADOR));
+        Accesso::permitir('POST /usuarios/guardar', 'UsuarioController->guardar', array(RolEnum::ADMINISTRADOR));
+        //-------
     } else {
         $autenticacionController = new AutenticacionController();
         $autenticacionController->desloguearTiempoExpirado();

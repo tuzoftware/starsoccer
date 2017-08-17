@@ -12,7 +12,7 @@ class ReglaController extends BaseController{
 
     public function __construct() {
         parent::__construct();
-        $this->reglaRepository = new ReglaRepository();
+        $this->reglaRepository = new ReglaRepository();// Instacia de un objeto con Camel Case
     }
 
     public function index(){
@@ -35,8 +35,9 @@ class ReglaController extends BaseController{
     }
 
     public function guardar() {
-        $regla = $this->post("regla");
+        $regla = $this->post("regla");///?
         $this->validar($regla);
+
         if (!empty($regla['id_regla'])) {
             $this->reglaRepository->actualizar($regla, 'regla', 'id_regla');
             $mensaje = "La informacion se actualizo correctamente";
@@ -52,9 +53,11 @@ class ReglaController extends BaseController{
         $validadorUtil = new ValidadorUtil($regla);
         $validadorUtil->validarTexto("regla", true, 3, 50, ExpresionRegularEnum::ALFA_MEXICO_ESPACIO);
         $validadorUtil->validarTexto("estatus", true, 3, 10, ExpresionRegularEnum::ALFA_MEXICO_ESPACIO);
+
         if (!empty($regla['id_regla'])) {
             $validadorUtil->validarNumeroId("id_regla", true, 1);
         }
+
         $validadorUtil->agregarEtiquetas(
             array('regla' => 'Regla', 'Estatus' => 'Estatus'));
         if (!$validadorUtil->validate()) {

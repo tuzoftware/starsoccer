@@ -1,0 +1,454 @@
+Tue, 11 Jul 2017 18:19:48 +0000 [::1] Unexpected "endblock" tag (expecting closing tag for the "for" tag defined near line 33). C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 92 FOLIO 11_07_2017_06_19_48
+Tue, 11 Jul 2017 18:20:42 +0000 [::1] Unexpected "endblock" tag (expecting closing tag for the "for" tag defined near line 33). C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 92 FOLIO 11_07_2017_06_20_42
+Tue, 11 Jul 2017 18:21:44 +0000 [::1] Unexpected "endblock" tag (expecting closing tag for the "for" tag defined near line 33). C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 92 FOLIO 11_07_2017_06_21_44
+Tue, 11 Jul 2017 18:23:11 +0000 [::1] Unexpected "endblock" tag (expecting closing tag for the "for" tag defined near line 33). C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 92 FOLIO 11_07_2017_06_23_11
+Tue, 11 Jul 2017 18:23:29 +0000 [::1] Unexpected "endblock" tag (expecting closing tag for the "for" tag defined near line 34). C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 92 FOLIO 11_07_2017_06_23_29
+Tue, 11 Jul 2017 18:23:39 +0000 [::1] Unexpected "endblock" tag (expecting closing tag for the "for" tag defined near line 34). C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 92 FOLIO 11_07_2017_06_23_39
+Tue, 11 Jul 2017 18:28:34 +0000 [::1] strtoupper() expects exactly 1 parameter, 0 given C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php - 18 FOLIO 11_07_2017_06_28_34
+Tue, 11 Jul 2017 18:28:51 +0000 [::1] strtolower() expects exactly 1 parameter, 0 given C:\wamp\www\starsoccer\app\repositories\UsuarioRepository.php - 14 FOLIO 11_07_2017_06_28_51
+Tue, 11 Jul 2017 18:37:08 +0000 [::1] Expected name or number. C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 34 FOLIO 11_07_2017_06_37_08
+Tue, 11 Jul 2017 18:37:19 +0000 [::1] Expected name or number. C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 34 FOLIO 11_07_2017_06_37_19
+Wed, 12 Jul 2017 21:18:45 +0000 [127.0.0.1] Unexpected token "end of print statement" of value "". C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 34 FOLIO 12_07_2017_09_18_45
+Wed, 19 Jul 2017 17:26:13 +0000 [127.0.0.1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,10' at line 3 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_05_26_13
+Wed, 19 Jul 2017 17:26:44 +0000 [127.0.0.1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,10' at line 3 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_05_26_44
+Wed, 19 Jul 2017 17:27:26 +0000 [127.0.0.1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,10' at line 3 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_05_27_26
+Wed, 19 Jul 2017 17:28:20 +0000 [127.0.0.1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,10' at line 3 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_05_28_20
+Wed, 19 Jul 2017 22:06:23 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_06_23
+Wed, 19 Jul 2017 22:06:24 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_06_24
+Wed, 19 Jul 2017 22:06:24 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_06_24
+Wed, 19 Jul 2017 22:06:24 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_06_24
+Wed, 19 Jul 2017 22:12:45 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_12_45
+Wed, 19 Jul 2017 22:12:45 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_12_45
+Wed, 19 Jul 2017 22:12:46 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_12_46
+Wed, 19 Jul 2017 22:12:46 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_12_46
+Wed, 19 Jul 2017 22:12:46 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_12_46
+Wed, 19 Jul 2017 22:12:46 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_12_46
+Wed, 19 Jul 2017 22:12:47 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_12_47
+Wed, 19 Jul 2017 22:12:47 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_12_47
+Wed, 19 Jul 2017 22:12:47 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_12_47
+Wed, 19 Jul 2017 22:12:47 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_12_47
+Wed, 19 Jul 2017 22:13:22 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_13_22
+Wed, 19 Jul 2017 22:14:38 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_38
+Wed, 19 Jul 2017 22:14:39 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_39
+Wed, 19 Jul 2017 22:14:39 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_39
+Wed, 19 Jul 2017 22:14:39 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_39
+Wed, 19 Jul 2017 22:14:39 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_39
+Wed, 19 Jul 2017 22:14:40 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_40
+Wed, 19 Jul 2017 22:14:40 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_40
+Wed, 19 Jul 2017 22:14:40 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_40
+Wed, 19 Jul 2017 22:14:40 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_40
+Wed, 19 Jul 2017 22:14:41 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_41
+Wed, 19 Jul 2017 22:14:41 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_41
+Wed, 19 Jul 2017 22:14:41 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_41
+Wed, 19 Jul 2017 22:14:42 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_42
+Wed, 19 Jul 2017 22:14:42 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_42
+Wed, 19 Jul 2017 22:14:42 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_42
+Wed, 19 Jul 2017 22:14:42 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_42
+Wed, 19 Jul 2017 22:14:43 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_43
+Wed, 19 Jul 2017 22:14:43 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_43
+Wed, 19 Jul 2017 22:14:43 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_43
+Wed, 19 Jul 2017 22:14:43 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_43
+Wed, 19 Jul 2017 22:14:44 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_44
+Wed, 19 Jul 2017 22:14:44 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_44
+Wed, 19 Jul 2017 22:14:44 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_44
+Wed, 19 Jul 2017 22:14:44 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_44
+Wed, 19 Jul 2017 22:14:45 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_45
+Wed, 19 Jul 2017 22:14:45 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_45
+Wed, 19 Jul 2017 22:14:45 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_45
+Wed, 19 Jul 2017 22:14:46 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_46
+Wed, 19 Jul 2017 22:14:46 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_14_46
+Wed, 19 Jul 2017 22:59:53 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_59_53
+Wed, 19 Jul 2017 22:59:54 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_59_54
+Wed, 19 Jul 2017 22:59:55 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_59_55
+Wed, 19 Jul 2017 22:59:55 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_59_55
+Wed, 19 Jul 2017 22:59:55 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_59_55
+Wed, 19 Jul 2017 22:59:55 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_59_55
+Wed, 19 Jul 2017 22:59:55 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_59_55
+Wed, 19 Jul 2017 22:59:56 +0000 [::1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_10_59_56
+Wed, 19 Jul 2017 23:00:29 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_00_29
+Wed, 19 Jul 2017 23:00:30 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_00_30
+Wed, 19 Jul 2017 23:00:31 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_00_31
+Wed, 19 Jul 2017 23:00:31 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_00_31
+Wed, 19 Jul 2017 23:00:32 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_00_32
+Wed, 19 Jul 2017 23:00:32 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_00_32
+Wed, 19 Jul 2017 23:00:32 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_00_32
+Wed, 19 Jul 2017 23:00:32 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_00_32
+Wed, 19 Jul 2017 23:00:33 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_00_33
+Wed, 19 Jul 2017 23:00:37 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_00_37
+Wed, 19 Jul 2017 23:04:51 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_51
+Wed, 19 Jul 2017 23:04:52 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_52
+Wed, 19 Jul 2017 23:04:52 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_52
+Wed, 19 Jul 2017 23:04:53 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_53
+Wed, 19 Jul 2017 23:04:53 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_53
+Wed, 19 Jul 2017 23:04:53 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_53
+Wed, 19 Jul 2017 23:04:53 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_53
+Wed, 19 Jul 2017 23:04:53 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_53
+Wed, 19 Jul 2017 23:04:54 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_54
+Wed, 19 Jul 2017 23:04:54 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_54
+Wed, 19 Jul 2017 23:04:54 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_54
+Wed, 19 Jul 2017 23:04:55 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_55
+Wed, 19 Jul 2017 23:04:55 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_55
+Wed, 19 Jul 2017 23:04:55 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_55
+Wed, 19 Jul 2017 23:04:55 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_04_55
+Wed, 19 Jul 2017 23:16:43 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_16_43
+Wed, 19 Jul 2017 23:16:45 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_16_45
+Wed, 19 Jul 2017 23:16:46 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_16_46
+Wed, 19 Jul 2017 23:16:46 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_16_46
+Wed, 19 Jul 2017 23:16:47 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_16_47
+Wed, 19 Jul 2017 23:16:47 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_16_47
+Wed, 19 Jul 2017 23:16:47 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_16_47
+Wed, 19 Jul 2017 23:16:48 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_16_48
+Wed, 19 Jul 2017 23:16:48 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_16_48
+Wed, 19 Jul 2017 23:16:49 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_16_49
+Wed, 19 Jul 2017 23:16:49 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_16_49
+Wed, 19 Jul 2017 23:17:34 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_17_34
+Wed, 19 Jul 2017 23:17:34 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 19_07_2017_11_17_34
+Fri, 21 Jul 2017 18:37:16 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 21_07_2017_06_37_16
+Fri, 21 Jul 2017 18:38:40 +0000 [127.0.0.1] Unexpected token "end of statement block" of value "". C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 34 FOLIO 21_07_2017_06_38_40
+Fri, 21 Jul 2017 18:43:04 +0000 [127.0.0.1] PDOStatement: Unknown column 'nombre' in 'field list' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 21_07_2017_06_43_04
+Fri, 21 Jul 2017 18:45:42 +0000 [127.0.0.1] Expected name or number. C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 35 FOLIO 21_07_2017_06_45_42
+Fri, 21 Jul 2017 19:25:10 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 21_07_2017_07_25_10
+Fri, 21 Jul 2017 19:36:36 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario_datos.estatus' in 'field list' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 21_07_2017_07_36_36
+Fri, 21 Jul 2017 19:37:38 +0000 [127.0.0.1] PDOStatement: Unknown column 'usuario_datos.estatus' in 'field list' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 21_07_2017_07_37_38
+Fri, 21 Jul 2017 20:36:52 +0000 [127.0.0.1] Missing argument 1 for UsuarioRepository::obtenerUsuarios(), called in C:\wamp\www\starsoccer\app\test\controller\TestController.php on line 22 and defined C:\wamp\www\starsoccer\app\repositories\UsuarioRepository.php - 11 FOLIO 21_07_2017_08_36_52
+Fri, 21 Jul 2017 20:37:06 +0000 [127.0.0.1] Missing argument 1 for UsuarioRepository::obtenerUsuarios(), called in C:\wamp\www\starsoccer\app\test\controller\TestController.php on line 22 and defined C:\wamp\www\starsoccer\app\repositories\UsuarioRepository.php - 11 FOLIO 21_07_2017_08_37_06
+Fri, 21 Jul 2017 20:37:35 +0000 [127.0.0.1] Missing argument 1 for UsuarioRepository::obtenerUsuarios(), called in C:\wamp\www\starsoccer\app\test\controller\TestController.php on line 22 and defined C:\wamp\www\starsoccer\app\repositories\UsuarioRepository.php - 11 FOLIO 21_07_2017_08_37_35
+Fri, 21 Jul 2017 20:43:05 +0000 [127.0.0.1] Unclosed comment. C:\wamp\www\starsoccer\ui\modulos\usuario\html\usuario.html - 180 FOLIO 21_07_2017_08_43_05
+Mon, 14 Aug 2017 18:51:38 +0000 [::1] PDOStatement: Unknown column 'usuario.sexo' in 'field list' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 14_08_2017_06_51_38
+Mon, 14 Aug 2017 18:54:10 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'usuario_datos.sexo, usuario_datos.estatus, usuario.activo, usuario.bloqueado, us' at line 1 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 14_08_2017_06_54_10
+Mon, 14 Aug 2017 22:51:24 +0000 [127.0.0.1] PDOStatement: Cannot add or update a child row: a foreign key constraint fails (`starsoccer`.`usuario_rol`, CONSTRAINT `usuario_rol_ibfk_2` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`) ON DELETE CASCADE ON UPDATE CASCADE) C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 14_08_2017_10_51_24
+Mon, 14 Aug 2017 22:51:25 +0000 [127.0.0.1] PDOStatement: Cannot add or update a child row: a foreign key constraint fails (`starsoccer`.`usuario_rol`, CONSTRAINT `usuario_rol_ibfk_2` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`) ON DELETE CASCADE ON UPDATE CASCADE) C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 14_08_2017_10_51_25
+Mon, 14 Aug 2017 22:51:59 +0000 [127.0.0.1] PDOStatement: Cannot add or update a child row: a foreign key constraint fails (`starsoccer`.`usuario_rol`, CONSTRAINT `usuario_rol_ibfk_2` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`) ON DELETE CASCADE ON UPDATE CASCADE) C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 14_08_2017_10_51_59
+Mon, 14 Aug 2017 23:06:50 +0000 [::1] PDOStatement: Cannot add or update a child row: a foreign key constraint fails (`starsoccer`.`usuario_rol`, CONSTRAINT `usuario_rol_ibfk_2` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`) ON DELETE CASCADE ON UPDATE CASCADE) C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 14_08_2017_11_06_50
+Mon, 14 Aug 2017 23:06:51 +0000 [::1] PDOStatement: Cannot add or update a child row: a foreign key constraint fails (`starsoccer`.`usuario_rol`, CONSTRAINT `usuario_rol_ibfk_2` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`) ON DELETE CASCADE ON UPDATE CASCADE) C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 14_08_2017_11_06_51
+Mon, 14 Aug 2017 23:06:57 +0000 [::1] PDOStatement: Cannot add or update a child row: a foreign key constraint fails (`starsoccer`.`usuario_rol`, CONSTRAINT `usuario_rol_ibfk_2` FOREIGN KEY (`id_usuario`) REFERENCES `usuario` (`id_usuario`) ON DELETE CASCADE ON UPDATE CASCADE) C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 14_08_2017_11_06_57
+Mon, 14 Aug 2017 23:17:59 +0000 [::1] Object of class DB\SQL\Mapper could not be converted to string C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php - 54 FOLIO 14_08_2017_11_17_59
+Mon, 14 Aug 2017 23:18:01 +0000 [::1] Object of class DB\SQL\Mapper could not be converted to string C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php - 54 FOLIO 14_08_2017_11_18_01
+Mon, 14 Aug 2017 23:18:10 +0000 [::1] Object of class DB\SQL\Mapper could not be converted to string C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php - 54 FOLIO 14_08_2017_11_18_10
+Mon, 14 Aug 2017 23:18:10 +0000 [::1] Object of class DB\SQL\Mapper could not be converted to string C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php - 54 FOLIO 14_08_2017_11_18_10
+Mon, 14 Aug 2017 23:18:10 +0000 [::1] Object of class DB\SQL\Mapper could not be converted to string C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php - 54 FOLIO 14_08_2017_11_18_10
+Mon, 14 Aug 2017 23:18:11 +0000 [::1] Object of class DB\SQL\Mapper could not be converted to string C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php - 54 FOLIO 14_08_2017_11_18_11
+Mon, 14 Aug 2017 23:18:11 +0000 [::1] Object of class DB\SQL\Mapper could not be converted to string C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php - 54 FOLIO 14_08_2017_11_18_11
+Mon, 14 Aug 2017 23:18:11 +0000 [::1] Object of class DB\SQL\Mapper could not be converted to string C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php - 54 FOLIO 14_08_2017_11_18_11
+Tue, 15 Aug 2017 19:37:49 +0000 [::1] PDOStatement: Duplicate entry 'chelmon' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_37_49
+Tue, 15 Aug 2017 19:37:58 +0000 [::1] PDOStatement: Duplicate entry 'chelmon' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_37_58
+Tue, 15 Aug 2017 19:37:59 +0000 [::1] PDOStatement: Duplicate entry 'chelmon' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_37_59
+Tue, 15 Aug 2017 19:38:00 +0000 [::1] PDOStatement: Duplicate entry 'chelmon' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_38_00
+Tue, 15 Aug 2017 19:38:00 +0000 [::1] PDOStatement: Duplicate entry 'chelmon' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_38_00
+Tue, 15 Aug 2017 19:39:34 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_39_34
+Tue, 15 Aug 2017 19:39:40 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_39_40
+Tue, 15 Aug 2017 19:39:41 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_39_41
+Tue, 15 Aug 2017 19:39:49 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_39_49
+Tue, 15 Aug 2017 19:41:00 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_41_00
+Tue, 15 Aug 2017 19:41:02 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_41_02
+Tue, 15 Aug 2017 19:41:03 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_41_03
+Tue, 15 Aug 2017 19:41:03 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_41_03
+Tue, 15 Aug 2017 19:41:03 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_41_03
+Tue, 15 Aug 2017 19:41:03 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_41_03
+Tue, 15 Aug 2017 19:41:03 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_41_03
+Tue, 15 Aug 2017 19:41:04 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_41_04
+Tue, 15 Aug 2017 19:57:24 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_57_24
+Tue, 15 Aug 2017 19:57:29 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_57_29
+Tue, 15 Aug 2017 19:57:31 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_57_31
+Tue, 15 Aug 2017 19:58:24 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_07_58_24
+Tue, 15 Aug 2017 20:01:43 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_43
+Tue, 15 Aug 2017 20:01:50 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_50
+Tue, 15 Aug 2017 20:01:51 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_51
+Tue, 15 Aug 2017 20:01:51 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_51
+Tue, 15 Aug 2017 20:01:52 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_52
+Tue, 15 Aug 2017 20:01:52 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_52
+Tue, 15 Aug 2017 20:01:52 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_52
+Tue, 15 Aug 2017 20:01:52 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_52
+Tue, 15 Aug 2017 20:01:53 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_53
+Tue, 15 Aug 2017 20:01:53 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_53
+Tue, 15 Aug 2017 20:01:53 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_53
+Tue, 15 Aug 2017 20:01:59 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_01_59
+Tue, 15 Aug 2017 20:02:02 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_02
+Tue, 15 Aug 2017 20:02:09 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_09
+Tue, 15 Aug 2017 20:02:10 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_10
+Tue, 15 Aug 2017 20:02:10 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_10
+Tue, 15 Aug 2017 20:02:11 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_11
+Tue, 15 Aug 2017 20:02:11 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_11
+Tue, 15 Aug 2017 20:02:11 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_11
+Tue, 15 Aug 2017 20:02:11 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_11
+Tue, 15 Aug 2017 20:02:12 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_12
+Tue, 15 Aug 2017 20:02:12 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_12
+Tue, 15 Aug 2017 20:02:12 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_12
+Tue, 15 Aug 2017 20:02:12 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_12
+Tue, 15 Aug 2017 20:02:13 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_13
+Tue, 15 Aug 2017 20:02:13 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_13
+Tue, 15 Aug 2017 20:02:22 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_22
+Tue, 15 Aug 2017 20:02:24 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_24
+Tue, 15 Aug 2017 20:02:24 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_24
+Tue, 15 Aug 2017 20:02:45 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_02_45
+Tue, 15 Aug 2017 20:06:04 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_06_04
+Tue, 15 Aug 2017 20:06:05 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_06_05
+Tue, 15 Aug 2017 20:06:46 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_06_46
+Tue, 15 Aug 2017 20:06:53 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_06_53
+Tue, 15 Aug 2017 20:06:54 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_06_54
+Tue, 15 Aug 2017 20:06:54 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_06_54
+Tue, 15 Aug 2017 20:06:54 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_06_54
+Tue, 15 Aug 2017 20:06:54 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_06_54
+Tue, 15 Aug 2017 20:06:55 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_06_55
+Tue, 15 Aug 2017 20:06:55 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_06_55
+Tue, 15 Aug 2017 20:06:55 +0000 [::1] PDOStatement: Duplicate entry 'chel' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_08_06_55
+Tue, 15 Aug 2017 22:08:04 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,10' at line 4 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_08_04
+Tue, 15 Aug 2017 22:34:17 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_34_17
+Tue, 15 Aug 2017 22:34:58 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_34_58
+Tue, 15 Aug 2017 22:34:59 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_34_59
+Tue, 15 Aug 2017 22:34:59 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_34_59
+Tue, 15 Aug 2017 22:34:59 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_34_59
+Tue, 15 Aug 2017 22:34:59 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_34_59
+Tue, 15 Aug 2017 22:35:00 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_35_00
+Tue, 15 Aug 2017 22:35:00 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_35_00
+Tue, 15 Aug 2017 22:35:00 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_35_00
+Tue, 15 Aug 2017 22:36:45 +0000 [::1] PDOStatement: Unknown column 't.nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_36_45
+Tue, 15 Aug 2017 22:36:47 +0000 [::1] PDOStatement: Unknown column 't.nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_36_47
+Tue, 15 Aug 2017 22:37:16 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_37_16
+Tue, 15 Aug 2017 22:38:59 +0000 [::1] PDOStatement: Unknown column 't.nombre' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_38_59
+Tue, 15 Aug 2017 22:39:03 +0000 [::1] PDOStatement: Unknown column 't.apellido_paterno' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_39_03
+Tue, 15 Aug 2017 22:39:04 +0000 [::1] PDOStatement: Unknown column 't.apellido_paterno' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_39_04
+Tue, 15 Aug 2017 22:39:04 +0000 [::1] PDOStatement: Unknown column 't.apellido_paterno' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_39_04
+Tue, 15 Aug 2017 22:39:05 +0000 [::1] PDOStatement: Unknown column 't.apellido_paterno' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_39_05
+Tue, 15 Aug 2017 22:39:05 +0000 [::1] PDOStatement: Unknown column 't.apellido_paterno' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_39_05
+Tue, 15 Aug 2017 22:39:10 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_39_10
+Tue, 15 Aug 2017 22:39:47 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_39_47
+Tue, 15 Aug 2017 22:44:45 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_44_45
+Tue, 15 Aug 2017 22:44:49 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_44_49
+Tue, 15 Aug 2017 22:44:49 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_44_49
+Tue, 15 Aug 2017 22:44:49 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_44_49
+Tue, 15 Aug 2017 22:44:49 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_44_49
+Tue, 15 Aug 2017 22:44:49 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_44_49
+Tue, 15 Aug 2017 22:45:01 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_01
+Tue, 15 Aug 2017 22:45:02 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_02
+Tue, 15 Aug 2017 22:45:14 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_14
+Tue, 15 Aug 2017 22:45:15 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_15
+Tue, 15 Aug 2017 22:45:15 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_15
+Tue, 15 Aug 2017 22:45:16 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_16
+Tue, 15 Aug 2017 22:45:16 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_16
+Tue, 15 Aug 2017 22:45:16 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_16
+Tue, 15 Aug 2017 22:45:16 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_16
+Tue, 15 Aug 2017 22:45:17 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_17
+Tue, 15 Aug 2017 22:45:17 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_17
+Tue, 15 Aug 2017 22:45:17 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_17
+Tue, 15 Aug 2017 22:45:18 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_18
+Tue, 15 Aug 2017 22:45:28 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_28
+Tue, 15 Aug 2017 22:45:29 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_29
+Tue, 15 Aug 2017 22:45:29 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_29
+Tue, 15 Aug 2017 22:45:29 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_29
+Tue, 15 Aug 2017 22:45:29 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_29
+Tue, 15 Aug 2017 22:45:30 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_30
+Tue, 15 Aug 2017 22:45:30 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_30
+Tue, 15 Aug 2017 22:45:51 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_51
+Tue, 15 Aug 2017 22:45:52 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_52
+Tue, 15 Aug 2017 22:45:52 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_52
+Tue, 15 Aug 2017 22:45:52 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_52
+Tue, 15 Aug 2017 22:45:53 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_53
+Tue, 15 Aug 2017 22:45:53 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_45_53
+Tue, 15 Aug 2017 22:46:01 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_46_01
+Tue, 15 Aug 2017 22:46:01 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_46_01
+Tue, 15 Aug 2017 22:46:02 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_46_02
+Tue, 15 Aug 2017 22:46:02 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_46_02
+Tue, 15 Aug 2017 22:46:02 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_46_02
+Tue, 15 Aug 2017 22:46:12 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_46_12
+Tue, 15 Aug 2017 22:46:13 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_46_13
+Tue, 15 Aug 2017 22:46:13 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_46_13
+Tue, 15 Aug 2017 22:46:13 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'on clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_46_13
+Tue, 15 Aug 2017 22:47:30 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_30
+Tue, 15 Aug 2017 22:47:34 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_34
+Tue, 15 Aug 2017 22:47:34 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_34
+Tue, 15 Aug 2017 22:47:35 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_35
+Tue, 15 Aug 2017 22:47:35 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_35
+Tue, 15 Aug 2017 22:47:35 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_35
+Tue, 15 Aug 2017 22:47:35 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_35
+Tue, 15 Aug 2017 22:47:44 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_44
+Tue, 15 Aug 2017 22:47:45 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_45
+Tue, 15 Aug 2017 22:47:45 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_45
+Tue, 15 Aug 2017 22:47:49 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_49
+Tue, 15 Aug 2017 22:47:49 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_49
+Tue, 15 Aug 2017 22:47:49 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_49
+Tue, 15 Aug 2017 22:47:49 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_49
+Tue, 15 Aug 2017 22:47:49 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_49
+Tue, 15 Aug 2017 22:47:50 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_50
+Tue, 15 Aug 2017 22:47:53 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_53
+Tue, 15 Aug 2017 22:47:55 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_47_55
+Tue, 15 Aug 2017 22:48:01 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_48_01
+Tue, 15 Aug 2017 22:48:01 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_48_01
+Tue, 15 Aug 2017 22:48:01 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_48_01
+Tue, 15 Aug 2017 22:48:01 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_48_01
+Tue, 15 Aug 2017 22:48:02 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_48_02
+Tue, 15 Aug 2017 22:48:02 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_48_02
+Tue, 15 Aug 2017 22:53:24 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_53_24
+Tue, 15 Aug 2017 22:53:27 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_53_27
+Tue, 15 Aug 2017 22:53:27 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_53_27
+Tue, 15 Aug 2017 22:53:27 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_53_27
+Tue, 15 Aug 2017 22:53:27 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_53_27
+Tue, 15 Aug 2017 22:53:28 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_53_28
+Tue, 15 Aug 2017 22:53:28 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_53_28
+Tue, 15 Aug 2017 22:53:28 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_53_28
+Tue, 15 Aug 2017 22:53:37 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_53_37
+Tue, 15 Aug 2017 22:53:37 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_53_37
+Tue, 15 Aug 2017 22:53:38 +0000 [::1] PDOStatement: Unknown column 'usuario_datos.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_53_38
+Tue, 15 Aug 2017 22:54:50 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_54_50
+Tue, 15 Aug 2017 22:54:51 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_54_51
+Tue, 15 Aug 2017 22:54:51 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_54_51
+Tue, 15 Aug 2017 22:54:51 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_54_51
+Tue, 15 Aug 2017 22:54:51 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_54_51
+Tue, 15 Aug 2017 22:54:52 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_54_52
+Tue, 15 Aug 2017 22:54:52 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_54_52
+Tue, 15 Aug 2017 22:54:55 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_54_55
+Tue, 15 Aug 2017 22:54:55 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 15_08_2017_10_54_55
+Wed, 16 Aug 2017 18:03:32 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_03_32
+Wed, 16 Aug 2017 18:03:37 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_03_37
+Wed, 16 Aug 2017 18:03:37 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_03_37
+Wed, 16 Aug 2017 18:03:38 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_03_38
+Wed, 16 Aug 2017 18:03:38 +0000 [::1] PDOStatement: Column 'id_usuario' in on clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_03_38
+Wed, 16 Aug 2017 18:11:15 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_15
+Wed, 16 Aug 2017 18:11:19 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_19
+Wed, 16 Aug 2017 18:11:20 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_20
+Wed, 16 Aug 2017 18:11:20 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_20
+Wed, 16 Aug 2017 18:11:20 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_20
+Wed, 16 Aug 2017 18:11:20 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_20
+Wed, 16 Aug 2017 18:11:21 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_21
+Wed, 16 Aug 2017 18:11:21 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_21
+Wed, 16 Aug 2017 18:11:21 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_21
+Wed, 16 Aug 2017 18:11:21 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_21
+Wed, 16 Aug 2017 18:11:22 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_22
+Wed, 16 Aug 2017 18:11:22 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_22
+Wed, 16 Aug 2017 18:11:22 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_22
+Wed, 16 Aug 2017 18:11:39 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_39
+Wed, 16 Aug 2017 18:11:42 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_42
+Wed, 16 Aug 2017 18:11:43 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_43
+Wed, 16 Aug 2017 18:11:43 +0000 [::1] PDOStatement: Unknown column 'nombre' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_11_43
+Wed, 16 Aug 2017 18:40:52 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_40_52
+Wed, 16 Aug 2017 18:41:00 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_00
+Wed, 16 Aug 2017 18:41:00 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_00
+Wed, 16 Aug 2017 18:41:00 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_00
+Wed, 16 Aug 2017 18:41:01 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_01
+Wed, 16 Aug 2017 18:41:01 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_01
+Wed, 16 Aug 2017 18:41:01 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_01
+Wed, 16 Aug 2017 18:41:01 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_01
+Wed, 16 Aug 2017 18:41:01 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_01
+Wed, 16 Aug 2017 18:41:02 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_02
+Wed, 16 Aug 2017 18:41:09 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_09
+Wed, 16 Aug 2017 18:41:09 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_09
+Wed, 16 Aug 2017 18:41:09 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_09
+Wed, 16 Aug 2017 18:41:09 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_09
+Wed, 16 Aug 2017 18:41:09 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_09
+Wed, 16 Aug 2017 18:41:10 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_10
+Wed, 16 Aug 2017 18:41:10 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_10
+Wed, 16 Aug 2017 18:41:10 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_10
+Wed, 16 Aug 2017 18:41:10 +0000 [::1] PDOStatement: Unknown column 't.id_rol' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_06_41_10
+Wed, 16 Aug 2017 19:07:15 +0000 [::1] PDOStatement: Column 'id_usuario' in where clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_07_15
+Wed, 16 Aug 2017 19:07:41 +0000 [::1] PDOStatement: Unknown column 't.id_usuario' in 'where clause' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_07_41
+Wed, 16 Aug 2017 19:07:58 +0000 [::1] PDOStatement: Column 'id_usuario' in where clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_07_58
+Wed, 16 Aug 2017 19:09:03 +0000 [::1] PDOStatement: Column 'id_usuario' in where clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_09_03
+Wed, 16 Aug 2017 19:09:06 +0000 [::1] PDOStatement: Column 'id_usuario' in where clause is ambiguous C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_09_06
+Wed, 16 Aug 2017 19:15:40 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_15_40
+Wed, 16 Aug 2017 19:15:46 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_15_46
+Wed, 16 Aug 2017 19:15:47 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_15_47
+Wed, 16 Aug 2017 19:15:48 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_15_48
+Wed, 16 Aug 2017 19:15:48 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_15_48
+Wed, 16 Aug 2017 19:15:48 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_15_48
+Wed, 16 Aug 2017 19:15:48 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_15_48
+Wed, 16 Aug 2017 19:15:48 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_15_48
+Wed, 16 Aug 2017 19:15:49 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_15_49
+Wed, 16 Aug 2017 19:15:49 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_15_49
+Wed, 16 Aug 2017 19:15:49 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_15_49
+Wed, 16 Aug 2017 19:16:00 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_00
+Wed, 16 Aug 2017 19:16:01 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_01
+Wed, 16 Aug 2017 19:16:01 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_01
+Wed, 16 Aug 2017 19:16:02 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_02
+Wed, 16 Aug 2017 19:16:02 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_02
+Wed, 16 Aug 2017 19:16:02 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_02
+Wed, 16 Aug 2017 19:16:02 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_02
+Wed, 16 Aug 2017 19:16:03 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_03
+Wed, 16 Aug 2017 19:16:03 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_03
+Wed, 16 Aug 2017 19:16:03 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_03
+Wed, 16 Aug 2017 19:16:03 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_03
+Wed, 16 Aug 2017 19:16:04 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_04
+Wed, 16 Aug 2017 19:16:04 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_04
+Wed, 16 Aug 2017 19:16:04 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_04
+Wed, 16 Aug 2017 19:16:04 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_04
+Wed, 16 Aug 2017 19:16:05 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_05
+Wed, 16 Aug 2017 19:16:05 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_05
+Wed, 16 Aug 2017 19:16:05 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_05
+Wed, 16 Aug 2017 19:16:26 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_26
+Wed, 16 Aug 2017 19:16:28 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_28
+Wed, 16 Aug 2017 19:16:28 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_28
+Wed, 16 Aug 2017 19:16:28 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_28
+Wed, 16 Aug 2017 19:16:28 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_28
+Wed, 16 Aug 2017 19:16:29 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_29
+Wed, 16 Aug 2017 19:16:29 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_29
+Wed, 16 Aug 2017 19:16:29 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_29
+Wed, 16 Aug 2017 19:16:29 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_29
+Wed, 16 Aug 2017 19:16:30 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_30
+Wed, 16 Aug 2017 19:16:30 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_30
+Wed, 16 Aug 2017 19:16:30 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_30
+Wed, 16 Aug 2017 19:16:30 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_30
+Wed, 16 Aug 2017 19:16:31 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_31
+Wed, 16 Aug 2017 19:16:31 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_31
+Wed, 16 Aug 2017 19:16:31 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_31
+Wed, 16 Aug 2017 19:16:31 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_31
+Wed, 16 Aug 2017 19:16:32 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_32
+Wed, 16 Aug 2017 19:16:32 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_32
+Wed, 16 Aug 2017 19:16:32 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_32
+Wed, 16 Aug 2017 19:16:32 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_32
+Wed, 16 Aug 2017 19:16:33 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_33
+Wed, 16 Aug 2017 19:16:33 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_33
+Wed, 16 Aug 2017 19:16:33 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_33
+Wed, 16 Aug 2017 19:16:33 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_16_33
+Wed, 16 Aug 2017 19:17:27 +0000 [::1] PDOStatement: Duplicate entry 'Takuna' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_17_27
+Wed, 16 Aug 2017 19:17:32 +0000 [::1] PDOStatement: Duplicate entry 'Takuna' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_17_32
+Wed, 16 Aug 2017 19:17:32 +0000 [::1] PDOStatement: Duplicate entry 'Takuna' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_17_32
+Wed, 16 Aug 2017 19:17:32 +0000 [::1] PDOStatement: Duplicate entry 'Takuna' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_17_32
+Wed, 16 Aug 2017 19:19:18 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_18
+Wed, 16 Aug 2017 19:19:22 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_22
+Wed, 16 Aug 2017 19:19:22 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_22
+Wed, 16 Aug 2017 19:19:23 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_23
+Wed, 16 Aug 2017 19:19:23 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_23
+Wed, 16 Aug 2017 19:19:23 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_23
+Wed, 16 Aug 2017 19:19:23 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_23
+Wed, 16 Aug 2017 19:19:54 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_54
+Wed, 16 Aug 2017 19:19:55 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_55
+Wed, 16 Aug 2017 19:19:57 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_57
+Wed, 16 Aug 2017 19:19:57 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_57
+Wed, 16 Aug 2017 19:19:57 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_57
+Wed, 16 Aug 2017 19:19:59 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_59
+Wed, 16 Aug 2017 19:19:59 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_19_59
+Wed, 16 Aug 2017 19:20:00 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_20_00
+Wed, 16 Aug 2017 19:21:28 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_21_28
+Wed, 16 Aug 2017 19:21:29 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_21_29
+Wed, 16 Aug 2017 19:21:33 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_21_33
+Wed, 16 Aug 2017 19:21:33 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_21_33
+Wed, 16 Aug 2017 19:21:34 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_21_34
+Wed, 16 Aug 2017 19:21:34 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_21_34
+Wed, 16 Aug 2017 19:21:34 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_21_34
+Wed, 16 Aug 2017 19:21:34 +0000 [::1] PDOStatement: Duplicate entry 'admin' for key 'PRIMARY' C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_21_34
+Wed, 16 Aug 2017 19:21:58 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=NULL AND id_usuario!='admin'' at line 1 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_21_58
+Wed, 16 Aug 2017 19:21:59 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=NULL AND id_usuario!='admin'' at line 1 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_21_59
+Wed, 16 Aug 2017 19:22:00 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=NULL AND id_usuario!='admin'' at line 1 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_22_00
+Wed, 16 Aug 2017 19:22:00 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=NULL AND id_usuario!='admin'' at line 1 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_22_00
+Wed, 16 Aug 2017 19:22:00 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=NULL AND id_usuario!='admin'' at line 1 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_22_00
+Wed, 16 Aug 2017 19:22:00 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=NULL AND id_usuario!='admin'' at line 1 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_22_00
+Wed, 16 Aug 2017 19:22:01 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=NULL AND id_usuario!='admin'' at line 1 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_22_01
+Wed, 16 Aug 2017 19:22:01 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=NULL AND id_usuario!='admin'' at line 1 C:\wamp\www\starsoccer\lib\db\sql.php - 233 FOLIO 16_08_2017_07_22_01
+Wed, 16 Aug 2017 19:22:36 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_22_36
+Wed, 16 Aug 2017 19:22:36 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_22_36
+Wed, 16 Aug 2017 19:22:37 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_22_37
+Wed, 16 Aug 2017 19:22:38 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_22_38
+Wed, 16 Aug 2017 19:23:07 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_07
+Wed, 16 Aug 2017 19:23:08 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_08
+Wed, 16 Aug 2017 19:23:08 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_08
+Wed, 16 Aug 2017 19:23:09 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_09
+Wed, 16 Aug 2017 19:23:10 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_10
+Wed, 16 Aug 2017 19:23:11 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_11
+Wed, 16 Aug 2017 19:23:11 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_11
+Wed, 16 Aug 2017 19:23:11 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_11
+Wed, 16 Aug 2017 19:23:11 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_11
+Wed, 16 Aug 2017 19:23:12 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_12
+Wed, 16 Aug 2017 19:23:12 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_12
+Wed, 16 Aug 2017 19:23:12 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_12
+Wed, 16 Aug 2017 19:23:12 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_12
+Wed, 16 Aug 2017 19:23:13 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_13
+Wed, 16 Aug 2017 19:23:13 +0000 [::1] Missing argument 4 for BaseRepository::existeGuardarEditarNombreCampo(), called in C:\wamp\www\starsoccer\app\usuario\controller\UsuarioController.php on line 115 and defined C:\wamp\www\starsoccer\core\base\BaseRepository.php - 82 FOLIO 16_08_2017_07_23_13

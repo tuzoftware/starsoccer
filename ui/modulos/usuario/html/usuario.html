@@ -1,15 +1,17 @@
+
 [% extends "base.html" %]
-[% block title %] Registro Reglas [% endblock %]
+[% block title %] Registro Usuarios [% endblock %]
 [% block estilos %] [[ parent() ]]
 <link rel="stylesheet" href="[[base]]/ui/js/base/datatables-1.10.12/css/dataTables-custom.css">
 <link rel="stylesheet" href="[[base]]/ui/js/base/lobibox/css/lobibox.min.css">
 <link rel="stylesheet" href="[[base]]/ui/js/base/selectize/css/selectize.bootstrap3.css">
 [% endblock %]
 [% block contenido %]
+<!doctype html>
 <div class="row">
     <div class="col-lg-12" style="margin:10px 0 0 0"><p class="titulo">
         <i class="icon2-dependencia-2 sube text-info"></i>
-        <span class="resalte">Administraci&oacute;n</span>  <i style="font-size:0.6em" class="fa fa-chevron-right text-muted"></i> <span style="font-size:28px"><span class="icon-info-sign sube"></span> Reglas</span>
+        <span class="resalte">Administraci&oacute;n</span>  <i style="font-size:0.6em" class="fa fa-chevron-right text-muted"></i> <span style="font-size:28px"><span class="icon-info-sign sube"></span> Usuarios</span>
     </p>
         <br>
     </div>
@@ -18,11 +20,27 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <div class="card card-primary animated fadeInUp animation-delay-7">
-            <form id="frmBuscar"> <fieldset>
+            <form id="frmBuscar"><fieldset>
+
                 <div class="container">
-                    <!--Nombre Regla-->
+                    <!--Id Usuario-->
                     <div class="row">
-                        <div class="col-md-11">
+                            <div class="col-md-11">
+                                <div class="form-group label-floating">
+                                    <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-filter"></i>
+                                    </span>
+                                        <label class="control-label">Id Usuario</label>
+                                        <input type="text" name="filtros[id_usuario]" class="form-control">
+                                    </div>
+                                    <span class="errores" data-error="id_usuario"><i class="fa fa-times"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    <!--Nombre Usuario-->
+                        <div class="row">
+                            <div class="col-md-11">
                             <div class="form-group label-floating">
                                 <div class="input-group">
                                         <span class="input-group-addon">
@@ -35,7 +53,22 @@
                             </div>
                         </div>
                     </div>
-                    <!--Estatus-->
+                    <!--Apellido Paterno-->
+                    <div class="row">
+                        <div class="col-md-11">
+                            <div class="form-group label-floating">
+                                <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-filter"></i>
+                                        </span>
+                                    <label class="control-label">Apellido Paterno</label>
+                                    <input type="text" name="filtros[apellido_paterno]" class="form-control">
+                                </div>
+                                <span class="errores" data-error="apellido_paterno"><i class="fa fa-times"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Rol-->
                     <div class="row">
                         <div class="col-md-11">
                             <div class="form-group">
@@ -43,18 +76,19 @@
                                     <span class="input-group-addon">
                                         <i class="fa fa-filter"></i>
                                     </span>
-                                    <label class="control-label">Estatus:</label>
-                                    <select id="estatus_busqueda" name="filtros[estatus_busqueda]" placeholder="Seleccionar">
+                                    <label class="control-label">Rol:</label>
+                                    <select id="rol_busqueda" name="filtros[rol_busqueda]" placeholder="Seleccionar">
                                         <option value=""></option>
-                                        [% for estatus in estados %]
-                                        <option value="[[estatus]]">[[estatus]]</option>
+                                        [% for id_rol in rol %]
+                                        <option value="[[id_rol]]">[[id_rol]]</option>
                                         [% endfor %]
                                     </select>
                                 </div>
-                                <span class="errores" data-error="estatus_busqueda"><i class="fa fa-times"></i></span>
+                                <span class="errores" data-error="rol_busqueda"><i class="fa fa-times"></i></span>
                             </div>
                         </div>
                     </div>
+
                     <!--Botones-->
                     <div class="row">
                         <div class="col-md-11">
@@ -62,20 +96,28 @@
                             <button id="btn_nuevo" type="button" class="btn btn-raised btn-success pull-right">Agregar</button>
                         </div>
                     </div>
+
                 </div>
+
             </fieldset>
             </form>
         </div>
     </div>
 </div>
+
+
 <div class="row">
     <div class="col-md-12">
-        <table class="display" id="tbl_tecnologia" width="100%">
+        <table class="display" id="tabla_usuario_datos" width="100%">
             <thead>
             <tr>
-                <th width="80%">Reglas</th>
-                <th width="10%">Estatus</th>
-                <th width="10%">Acci&oacute;n</th>
+                <th width="10%">Id Usuario</th>
+                <th width="10%">Nombre</th>
+                <th width="10%">Apellido Paterno</th>
+                <th width="10%">Apellido Materno</th>
+                <th width="10%">Activo</th>
+                <th width="10%">Bloqueado</th>
+                <th width="40%">Acciones</th>
             </tr>
             </thead>
             <tbody>
@@ -83,7 +125,7 @@
         </table>
     </div>
 </div>
-[% include 'modalregla.html' %]
+[% include 'modalusuario.html' %]
 [% endblock %]
 [% block scripts %] [[ parent() ]]
 <script src="[[base]]/ui/js/base/lobibox/js/notifications.min.js"></script>
@@ -97,20 +139,35 @@
     $(function () {
         var columnas = [
             {
-                "data": "regla",
+                "data": "id_usuario",
                 "defaultContent": ""
             }, {
-                "data": "estatus",
+                "data": "nombre",
+                "defaultContent": ""
+            }, {
+                "data": "apellido_paterno",
+                "defaultContent": ""
+            },{
+                "data": "apellido_materno",
+                "defaultContent": ""
+            },{
+                "data": "activo",
+                "defaultContent": ""
+            }, {
+                "data": "bloqueado",
                 "defaultContent": ""
             },
             {"data": null,
-                "defaultContent": "<button class='btn btn-raised btn-primary'>Editar</button>"
+                "defaultContent": "<button name='btn_editar' id='btn_editar' type='button' class='btn btn-raised btn-primary btn-sm'>Editar</button> <button class='btn btn-raised btn-sm'>Cambiar Activación</button> <button class='btn btn-raised btn-sm'>Cambiar Bloqueo</button> <button class='btn btn-raised btn-sm'>Resetear Password</button>"
             }
         ];
 
-        var dt = dataTableComponente("#tbl_tecnologia", "[[base]]/reglas/buscar", columnas, "#frmBuscar", 10);
-        var selectEstatus = selectizeComponente('[name="regla[estatus]"]');//selecciona estatus de modal
-        var selectEstatusFiltro = selectizeComponente('[name="filtros[estatus_busqueda]"]');//estatus de regla
+        var dt= dataTableComponente("#tabla_usuario_datos", "[[base]]/usuarios/buscar", columnas, "#frmBuscar", 10);
+        var selectSexo = selectizeComponente('[name="usuario_datos[sexo]"]');//modal
+        var selectIdRol = selectizeComponente('[name="usuario_rol[id_rol]"]');//modal
+
+        var selectRolFiltro = selectizeComponente('[name="filtros[rol_busqueda]"]');//rol
+
         $(".form-group").addClass("is-empty");
 
         $('#frmBuscar').submit(function (event) {
@@ -118,23 +175,23 @@
             event.preventDefault();
         });
 
-        $("#tbl_tecnologia").delegate('button', "click", function () {
+        $("#tabla_usuario_datos").on("click", "button#btn_editar", function () {
             var datos = dt.obtenerSeleccionado(this);
-            modalTipo('Editar Tecnología', false, datos);
+            modalTipo('Editar Usuario', false, datos);
         });
 
         $("#btn_nuevo").on("click", function () {
-            baseComponente.limpiarFormulario('#frmAgregar');
-            modalTipo("Agregar Regla", true, null);
+            baseComponente.limpiarFormulario('#frmAgregar');//limpiando modal
+            modalTipo("Agregar Usuario", true, null);
         });
 
         $("#frmAgregar").submit(function (event) {
-            $.post("[[base]]/reglas/guardar", $("#frmAgregar").serialize(), function (data) {
+            $.post("[[base]]/usuarios/guardar", $("#frmAgregar").serialize(), function (data) {
                 if (data.tipoRespuesta === "MENSAJE" && data.tipoMensaje ==="CORRECTO") {
                     baseComponente.limpiarFormulario('#frmAgregar');
                     dt.recargar();
                     notificacionComponente.mostrarCorrecto(data.mensaje);
-                    $('#modalRegla').modal('hide');
+                    $('#modalUsuario').modal('hide');
                 } else {
 
                     if(data.tipoRespuesta ==="MENSAJE"  && data.tipoMensaje === "ERROR"){
@@ -156,21 +213,37 @@
             });
             event.preventDefault();
         });
-
-        //Modal
-        function modalTipo(titulo, tipo, elemento)
-        {
+//
+//        //Modal
+        function modalTipo(titulo, tipo, elemento){
             baseComponente.ocultarErrores();
             baseComponente.limpiarFormulario("#frmAgregar");
             if (tipo === false) {
-                $('[name="regla[id_regla]"]').val(elemento['id_regla']);//autoincrmentable
-                $('[name="regla[regla]"]').val(elemento['regla']);
+                //usuario
+                $('[name="usuario[id_usuario]"]').val(elemento['id_usuario']);
+                //for(usuario in usuarios)
+                //nickname = [[ usuario.contrasenia|json_encode() ]];
+                $('[name="usuario[contrasenia]"]').val(elemento['contrasenia']);
+                //endfor
+
+                //usuario_datos
+                $('[name="usuario_datos[id_usuario]"]').val(elemento['id_usuario']);//id_usuario
+                $('[name="usuario_datos[nombre]"]').val(elemento['nombre']);
+                $('[name="usuario_datos[apellido_paterno]"]').val(elemento['apellido_paterno']);
+                $('[name="usuario_datos[apellido_materno]"]').val(elemento['apellido_materno']);
+                //$('[name="usuario_datos[sexo]"]').val(elemento['sexo']);
+                selectSexo.setValue(elemento['sexo']);
+                $('[name="usuario_datos[fecha_nacimiento]"]').val(elemento['fecha_nacimiento']);
+                $('[name="usuario_datos[email]"]').val(elemento['email']);
+                //usuario_rol
+                $('[name="usuario_rol[id_usuario_rol]"]').val(elemento['id_usuario_rol']);//id_usuario_rol
+                $('[name="usuario_rol[id_usuario]"]').val(elemento['id_usuario']);//id_usuario
                 $(".modal-content .form-group").removeClass("is-empty");
-                selectEstatus.setValue(elemento['estatus']);
+                selectIdRol.setValue(elemento['id_rol']);
+
             } else {
                 //$(".modal-content .form-group").addClass("is-empty");
                 $(".modal-content .form-group").addClass("is-empty");
-
                 $('div.form-group').find('select').on('change',function () {
                     if ($(this).find('option:selected').val() != '') {
                         $(this).closest('div.form-group').removeClass("is-empty");
@@ -183,9 +256,9 @@
                     }});
             }
             $("#tituloModal").html(titulo);
-            $('#modalRegla').modal('show');
+            $('#modalUsuario').modal('show');
         }
-        $("#estatus_busqueda").on('change',function(){
+        $("#rol_busqueda").on('change',function(){
             if ($(this).val() != '') {
                 $(this).closest('div.form-group').removeClass("is-empty");
             };
