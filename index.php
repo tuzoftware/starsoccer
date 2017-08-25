@@ -128,6 +128,11 @@ if(F3::get('SESSION.id_usuario') == false) {
         Accesso::permitir('GET /reglas', 'ReglaController->index', array(RolEnum::ADMINISTRADOR));
         Accesso::permitir('POST /reglas/buscar', 'ReglaController->buscar', array(RolEnum::ADMINISTRADOR));
         Accesso::permitir('POST /reglas/guardar', 'ReglaController->guardar', array(RolEnum::ADMINISTRADOR));
+        //calendario
+        Accesso::permitir('GET /calendario', 'CalendarioController->index', array(RolEnum::ADMINISTRADOR));
+        Accesso::permitir('POST /calendario/buscar', 'CalendarioController->buscar', array(RolEnum::ADMINISTRADOR));
+        Accesso::permitir('POST /calendario/guardar', 'CalendarioController->guardar', array(RolEnum::ADMINISTRADOR));
+
     } else {
         $autenticacionController = new AutenticacionController();
         $autenticacionController->desloguearTiempoExpirado();

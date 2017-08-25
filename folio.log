@@ -1,0 +1,77 @@
+Thu, 17 Aug 2017 17:49:32 +0000 [::1] PDOStatement: Table 'starsoccer.calendario' doesn't exist C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_05_49_32
+Thu, 17 Aug 2017 17:49:45 +0000 [::1] PDOStatement: Table 'starsoccer.calendario' doesn't exist C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_05_49_45
+Thu, 17 Aug 2017 17:49:47 +0000 [::1] PDOStatement: Table 'starsoccer.calendario' doesn't exist C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_05_49_47
+Thu, 17 Aug 2017 20:00:40 +0000 [::1] PDOStatement: Table 'starsoccer.calendario' doesn't exist C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_00_40
+Thu, 17 Aug 2017 20:07:51 +0000 [::1] PDOStatement: Table 'starsoccer.calendario' doesn't exist C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_07_51
+Thu, 17 Aug 2017 20:11:22 +0000 [::1] PDOStatement: Table 'starsoccer.calendario' doesn't exist C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_11_22
+Thu, 17 Aug 2017 20:12:43 +0000 [::1] PDOStatement: Table 'starsoccer.calendario' doesn't exist C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_12_43
+Thu, 17 Aug 2017 20:13:10 +0000 [::1] PDOStatement: Table 'starsoccer.calendario' doesn't exist C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_13_10
+Thu, 17 Aug 2017 20:13:23 +0000 [::1] PDOStatement: Table 'starsoccer.calendario' doesn't exist C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_13_23
+Thu, 17 Aug 2017 20:14:58 +0000 [127.0.0.1] PDOStatement: Table 'starsoccer.calendario' doesn't exist C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_14_58
+Thu, 17 Aug 2017 20:15:58 +0000 [127.0.0.1] PDOStatement: Table 'starsoccer.calendario' doesn't exist C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_15_58
+Thu, 17 Aug 2017 20:41:51 +0000 [::1] PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined C:\wamp\www\starsoccerP\lib\db\sql.php - 227 FOLIO 17_08_2017_08_41_50
+Thu, 17 Aug 2017 20:41:51 +0000 [::1] PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined C:\wamp\www\starsoccerP\lib\db\sql.php - 227 FOLIO 17_08_2017_08_41_51
+Thu, 17 Aug 2017 20:41:51 +0000 [::1] PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined C:\wamp\www\starsoccerP\lib\db\sql.php - 227 FOLIO 17_08_2017_08_41_51
+Thu, 17 Aug 2017 20:41:52 +0000 [::1] PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined C:\wamp\www\starsoccerP\lib\db\sql.php - 227 FOLIO 17_08_2017_08_41_52
+Thu, 17 Aug 2017 20:41:52 +0000 [::1] PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined C:\wamp\www\starsoccerP\lib\db\sql.php - 227 FOLIO 17_08_2017_08_41_52
+Thu, 17 Aug 2017 20:41:55 +0000 [::1] PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined C:\wamp\www\starsoccerP\lib\db\sql.php - 227 FOLIO 17_08_2017_08_41_55
+Thu, 17 Aug 2017 20:41:55 +0000 [::1] PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined C:\wamp\www\starsoccerP\lib\db\sql.php - 227 FOLIO 17_08_2017_08_41_55
+Thu, 17 Aug 2017 20:41:55 +0000 [::1] PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined C:\wamp\www\starsoccerP\lib\db\sql.php - 227 FOLIO 17_08_2017_08_41_55
+Thu, 17 Aug 2017 20:41:55 +0000 [::1] PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined C:\wamp\www\starsoccerP\lib\db\sql.php - 227 FOLIO 17_08_2017_08_41_55
+Thu, 17 Aug 2017 20:41:55 +0000 [::1] PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined C:\wamp\www\starsoccerP\lib\db\sql.php - 227 FOLIO 17_08_2017_08_41_55
+Thu, 17 Aug 2017 20:42:35 +0000 [::1] PDOStatement: Column 'nombre' in on clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_42_35
+Thu, 17 Aug 2017 20:42:36 +0000 [::1] PDOStatement: Column 'nombre' in on clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_42_36
+Thu, 17 Aug 2017 20:42:36 +0000 [::1] PDOStatement: Column 'nombre' in on clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_42_36
+Thu, 17 Aug 2017 20:42:36 +0000 [::1] PDOStatement: Column 'nombre' in on clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_42_36
+Thu, 17 Aug 2017 20:42:36 +0000 [::1] PDOStatement: Column 'nombre' in on clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_42_36
+Thu, 17 Aug 2017 20:42:37 +0000 [::1] PDOStatement: Column 'nombre' in on clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_42_37
+Thu, 17 Aug 2017 20:42:37 +0000 [::1] PDOStatement: Column 'nombre' in on clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_42_37
+Thu, 17 Aug 2017 20:42:37 +0000 [::1] PDOStatement: Column 'nombre' in on clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_42_37
+Thu, 17 Aug 2017 20:42:37 +0000 [::1] PDOStatement: Column 'nombre' in on clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_42_37
+Thu, 17 Aug 2017 20:43:23 +0000 [::1] PDOStatement: Unknown column 'equipolocal' in 'on clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_43_23
+Thu, 17 Aug 2017 20:43:24 +0000 [::1] PDOStatement: Unknown column 'equipolocal' in 'on clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_43_24
+Thu, 17 Aug 2017 20:43:24 +0000 [::1] PDOStatement: Unknown column 'equipolocal' in 'on clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_43_24
+Thu, 17 Aug 2017 20:43:25 +0000 [::1] PDOStatement: Unknown column 'equipolocal' in 'on clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_43_25
+Thu, 17 Aug 2017 20:45:47 +0000 [::1] PDOStatement: Unknown column 'equipo.nombre' in 'on clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_45_47
+Thu, 17 Aug 2017 20:45:48 +0000 [::1] PDOStatement: Unknown column 'equipo.nombre' in 'on clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_45_48
+Thu, 17 Aug 2017 20:45:48 +0000 [::1] PDOStatement: Unknown column 'equipo.nombre' in 'on clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_45_48
+Thu, 17 Aug 2017 20:45:48 +0000 [::1] PDOStatement: Unknown column 'equipo.nombre' in 'on clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_45_48
+Thu, 17 Aug 2017 20:45:48 +0000 [::1] PDOStatement: Unknown column 'equipo.nombre' in 'on clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_45_48
+Thu, 17 Aug 2017 20:45:48 +0000 [::1] PDOStatement: Unknown column 'equipo.nombre' in 'on clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_08_45_48
+Thu, 17 Aug 2017 21:18:26 +0000 [::1] PDOStatement: Column 'nombre' in where clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_26
+Thu, 17 Aug 2017 21:18:27 +0000 [::1] PDOStatement: Column 'nombre' in where clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_27
+Thu, 17 Aug 2017 21:18:27 +0000 [::1] PDOStatement: Column 'nombre' in where clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_27
+Thu, 17 Aug 2017 21:18:27 +0000 [::1] PDOStatement: Column 'nombre' in where clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_27
+Thu, 17 Aug 2017 21:18:27 +0000 [::1] PDOStatement: Column 'nombre' in where clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_27
+Thu, 17 Aug 2017 21:18:28 +0000 [::1] PDOStatement: Column 'nombre' in where clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_28
+Thu, 17 Aug 2017 21:18:28 +0000 [::1] PDOStatement: Column 'nombre' in where clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_28
+Thu, 17 Aug 2017 21:18:28 +0000 [::1] PDOStatement: Column 'nombre' in where clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_28
+Thu, 17 Aug 2017 21:18:28 +0000 [::1] PDOStatement: Column 'nombre' in where clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_28
+Thu, 17 Aug 2017 21:18:29 +0000 [::1] PDOStatement: Column 'nombre' in where clause is ambiguous C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_29
+Thu, 17 Aug 2017 21:18:56 +0000 [::1] PDOStatement: Unknown column 'equipo.nombre' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_56
+Thu, 17 Aug 2017 21:18:56 +0000 [::1] PDOStatement: Unknown column 'equipo.nombre' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_56
+Thu, 17 Aug 2017 21:18:57 +0000 [::1] PDOStatement: Unknown column 'equipo.nombre' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_57
+Thu, 17 Aug 2017 21:18:57 +0000 [::1] PDOStatement: Unknown column 'equipo.nombre' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_57
+Thu, 17 Aug 2017 21:18:57 +0000 [::1] PDOStatement: Unknown column 'equipo.nombre' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_18_57
+Thu, 17 Aug 2017 21:19:22 +0000 [::1] PDOStatement: Unknown column 'equipo' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_19_22
+Thu, 17 Aug 2017 21:19:23 +0000 [::1] PDOStatement: Unknown column 'equipo' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_19_23
+Thu, 17 Aug 2017 21:19:23 +0000 [::1] PDOStatement: Unknown column 'equipo' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_19_23
+Thu, 17 Aug 2017 21:19:23 +0000 [::1] PDOStatement: Unknown column 'equipo' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_19_23
+Thu, 17 Aug 2017 21:19:23 +0000 [::1] PDOStatement: Unknown column 'equipo' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_19_23
+Thu, 17 Aug 2017 21:39:16 +0000 [::1] PDOStatement: Unknown column 'equipolocal' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_39_16
+Thu, 17 Aug 2017 21:39:17 +0000 [::1] PDOStatement: Unknown column 'equipolocal' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_39_17
+Thu, 17 Aug 2017 21:39:17 +0000 [::1] PDOStatement: Unknown column 'equipolocal' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_39_17
+Thu, 17 Aug 2017 21:39:18 +0000 [::1] PDOStatement: Unknown column 'equipolocal' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_39_18
+Thu, 17 Aug 2017 21:39:18 +0000 [::1] PDOStatement: Unknown column 'equipolocal' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_39_18
+Thu, 17 Aug 2017 21:39:18 +0000 [::1] PDOStatement: Unknown column 'equipolocal' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_39_18
+Thu, 17 Aug 2017 21:39:18 +0000 [::1] PDOStatement: Unknown column 'equipolocal' in 'where clause' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_39_18
+Thu, 17 Aug 2017 21:48:35 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'equipolocal.nombre LIKE '%dead%'  OR equipolocal.nombre LIKE '%dead%'' at line 6 C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_48_35
+Thu, 17 Aug 2017 21:48:36 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'equipolocal.nombre LIKE '%dead%'  OR equipolocal.nombre LIKE '%dead%'' at line 6 C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_48_36
+Thu, 17 Aug 2017 21:48:36 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'equipolocal.nombre LIKE '%dead%'  OR equipolocal.nombre LIKE '%dead%'' at line 6 C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_48_36
+Thu, 17 Aug 2017 21:48:37 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'equipolocal.nombre LIKE '%dead%'  OR equipolocal.nombre LIKE '%dead%'' at line 6 C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_48_37
+Thu, 17 Aug 2017 21:48:37 +0000 [::1] PDOStatement: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'equipolocal.nombre LIKE '%dead%'  OR equipolocal.nombre LIKE '%dead%'' at line 6 C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 17_08_2017_09_48_37
+Tue, 22 Aug 2017 17:10:18 +0000 [::1] Expected name or number. C:\wamp\www\starsoccerP\ui\modulos\calendario\html\modalcalendario.html - 27 FOLIO 22_08_2017_05_10_18
+Wed, 23 Aug 2017 16:34:05 +0000 [::1] PDOStatement: Unknown column 'id_juego' in 'field list' C:\wamp\www\starsoccerP\lib\db\sql.php - 233 FOLIO 23_08_2017_04_34_05
+Wed, 23 Aug 2017 16:49:30 +0000 [::1] Non-static method EstatusEnum::getConstants() should not be called statically, assuming $this from incompatible context C:\wamp\www\starsoccerP\app\regla\controller\ReglaController.php - 19 FOLIO 23_08_2017_04_49_30
+Wed, 23 Aug 2017 16:58:42 +0000 [::1] Unexpected token "operator" of value "*" ("name" expected). C:\wamp\www\starsoccerP\ui\modulos\calendario\html\modalcalendario.html - 27 FOLIO 23_08_2017_04_58_42
+Wed, 23 Aug 2017 16:58:50 +0000 [::1] Unknown "all" filter. C:\wamp\www\starsoccerP\ui\modulos\calendario\html\modalcalendario.html - 27 FOLIO 23_08_2017_04_58_50
