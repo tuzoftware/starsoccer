@@ -40,8 +40,13 @@
                                     <span class="input-group-addon">
                                         <i class="fa fa-pencil"></i>
                                     </span>
-                                    <label class="control-label">Equipo Local:</label>
-                                    <input type="text" name="jornada[equipo_local]" class="form-control" required="required">
+                                    <select name="jornada[equipo_local]" placeholder="Seleccionar" required="required">
+                                        <option value=""></option>
+                                        [% for equipoLocal in equiposLocales %]
+                                        <option value="[[equipoLocal]]">[[equipoLocal]]</option>
+                                        [% endfor %]
+                                    </select>
+
                                 </div>
                                 <span class="errores" data-error="equipo_local"><i class="fa fa-times"></i></span>
                             </div>
