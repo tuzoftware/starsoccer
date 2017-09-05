@@ -17,9 +17,9 @@ class CalendarioController extends BaseController{
 
     public function index(){
         //$this->p
-        $this->parametros["torneo"]=$this->calendarioRepository->obtenerTorneos();
         $equipos=array(1=>"Equipo Uno",2=>"Equipo Dos");
         $this->parametros["equiposLocales"]=$equipos;
+        $this->parametros["torneos"]=$this->calendarioRepository->obtenerTorneos();
         $this->render("calendario.html");
     }
 

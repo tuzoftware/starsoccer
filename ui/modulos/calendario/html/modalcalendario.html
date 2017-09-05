@@ -23,8 +23,8 @@
                                     <label class="control-label">Torneo:</label> <!--Nombre del torneo-->
                                     <select name="jornada[torneo]" placeholder="Seleccionar" required="required">
                                         <option value=""></option>
-                                        [% for torneo in torneo %]
-                                        <option value="[[torneo]]">[[torneo.nombre]]</option>
+                                        [% for torneo in torneos %]
+                                        <option value="[[torneo.nombre]]">[[torneo.nombre]]</option>
                                         [% endfor %]
                                     </select>
                                 </div>
