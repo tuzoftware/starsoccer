@@ -18,10 +18,10 @@ class __TwigTemplate_3abf72fcaa92e371282034b2dd5eb69525ba9ec17925313b2d6f638a474
         // line 1
         echo "<div class=\"modal fade modal-danger\" id=\"modalCalendario\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\">
     <form id=\"frmAgregar\" class=\"pArrow-p-form p-form-pArrow-extra2color2\">
-        <input type=\"\" name=\"jornada[id_juego]\" id=\"id_juego\"> <!--invisible--><!--autoincrementable-->
-        <input type=\"\" name=\"jornada[id_torneo]\" id=\"id_torneo\"> <!--recuperar id por nombre-->
-        <input type=\"\" name=\"jornada[id_equipo_local]\" id=\"id_equipo_local\"> <!--recuperar id por nombre-->
-        <input type=\"\" name=\"jornada[id_equipo_visita]\" id=\"id_equipo_visita\"> <!--recuperar id por nombre-->
+        <input type=\"hidden\" name=\"jornada[id_juego]\" id=\"id_juego\"> <!--invisible--><!--autoincrementable-->
+        <input type=\"hidden\" name=\"jornada[id_torneo]\" id=\"id_torneo\"> <!--recuperar id por nombre-->
+        <input type=\"hidden\" name=\"jornada[id_equipo_local]\" id=\"id_equipo_local\"> <!--recuperar id por nombre-->
+        <input type=\"hidden\" name=\"jornada[id_equipo_visita]\" id=\"id_equipo_visita\"> <!--recuperar id por nombre-->
         <div class=\"modal-dialog\" style=\"width:900px;height:600px;\" role=\"document\">
             <div class=\"modal-content\">
                 <div class=\"modal-header primary\">
@@ -72,8 +72,27 @@ class __TwigTemplate_3abf72fcaa92e371282034b2dd5eb69525ba9ec17925313b2d6f638a474
                                     <span class=\"input-group-addon\">
                                         <i class=\"fa fa-pencil\"></i>
                                     </span>
-                                    <label class=\"control-label\">Equipo Local:</label>
-                                    <input type=\"text\" name=\"jornada[equipo_local]\" class=\"form-control\" required=\"required\">
+                                    <select name=\"jornada[equipo_local]\" placeholder=\"Seleccionar\" required=\"required\">
+                                        <option value=\"\"></option>
+                                        ";
+        // line 45
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable((isset($context["equiposLocales"]) ? $context["equiposLocales"] : null));
+        foreach ($context['_seq'] as $context["_key"] => $context["equipoLocal"]) {
+            // line 46
+            echo "                                        <option value=\"";
+            echo twig_escape_filter($this->env, $context["equipoLocal"], "html", null, true);
+            echo "\">";
+            echo twig_escape_filter($this->env, $context["equipoLocal"], "html", null, true);
+            echo "</option>
+                                        ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['equipoLocal'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 48
+        echo "                                    </select>
+
                                 </div>
                                 <span class=\"errores\" data-error=\"equipo_local\"><i class=\"fa fa-times\"></i></span>
                             </div>
@@ -178,7 +197,7 @@ class __TwigTemplate_3abf72fcaa92e371282034b2dd5eb69525ba9ec17925313b2d6f638a474
 
     public function getDebugInfo()
     {
-        return array (  61 => 29,  50 => 27,  46 => 26,  19 => 1,);
+        return array (  94 => 48,  83 => 46,  79 => 45,  61 => 29,  50 => 27,  46 => 26,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -193,10 +212,10 @@ class __TwigTemplate_3abf72fcaa92e371282034b2dd5eb69525ba9ec17925313b2d6f638a474
     {
         return new Twig_Source("<div class=\"modal fade modal-danger\" id=\"modalCalendario\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\">
     <form id=\"frmAgregar\" class=\"pArrow-p-form p-form-pArrow-extra2color2\">
-        <input type=\"\" name=\"jornada[id_juego]\" id=\"id_juego\"> <!--invisible--><!--autoincrementable-->
-        <input type=\"\" name=\"jornada[id_torneo]\" id=\"id_torneo\"> <!--recuperar id por nombre-->
-        <input type=\"\" name=\"jornada[id_equipo_local]\" id=\"id_equipo_local\"> <!--recuperar id por nombre-->
-        <input type=\"\" name=\"jornada[id_equipo_visita]\" id=\"id_equipo_visita\"> <!--recuperar id por nombre-->
+        <input type=\"hidden\" name=\"jornada[id_juego]\" id=\"id_juego\"> <!--invisible--><!--autoincrementable-->
+        <input type=\"hidden\" name=\"jornada[id_torneo]\" id=\"id_torneo\"> <!--recuperar id por nombre-->
+        <input type=\"hidden\" name=\"jornada[id_equipo_local]\" id=\"id_equipo_local\"> <!--recuperar id por nombre-->
+        <input type=\"hidden\" name=\"jornada[id_equipo_visita]\" id=\"id_equipo_visita\"> <!--recuperar id por nombre-->
         <div class=\"modal-dialog\" style=\"width:900px;height:600px;\" role=\"document\">
             <div class=\"modal-content\">
                 <div class=\"modal-header primary\">
@@ -233,8 +252,13 @@ class __TwigTemplate_3abf72fcaa92e371282034b2dd5eb69525ba9ec17925313b2d6f638a474
                                     <span class=\"input-group-addon\">
                                         <i class=\"fa fa-pencil\"></i>
                                     </span>
-                                    <label class=\"control-label\">Equipo Local:</label>
-                                    <input type=\"text\" name=\"jornada[equipo_local]\" class=\"form-control\" required=\"required\">
+                                    <select name=\"jornada[equipo_local]\" placeholder=\"Seleccionar\" required=\"required\">
+                                        <option value=\"\"></option>
+                                        [% for equipoLocal in equiposLocales %]
+                                        <option value=\"[[equipoLocal]]\">[[equipoLocal]]</option>
+                                        [% endfor %]
+                                    </select>
+
                                 </div>
                                 <span class=\"errores\" data-error=\"equipo_local\"><i class=\"fa fa-times\"></i></span>
                             </div>
@@ -324,6 +348,6 @@ class __TwigTemplate_3abf72fcaa92e371282034b2dd5eb69525ba9ec17925313b2d6f638a474
             </div>
         </div>
     </form>
-</div>", "modalCalendario.html", "C:\\wamp\\www\\starsoccerP\\ui\\modulos\\calendario\\html\\modalcalendario.html");
+</div>", "modalCalendario.html", "C:\\wamp3\\www\\starzoccer\\ui\\modulos\\calendario\\html\\modalcalendario.html");
     }
 }

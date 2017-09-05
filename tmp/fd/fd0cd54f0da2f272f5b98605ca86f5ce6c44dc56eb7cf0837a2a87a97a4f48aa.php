@@ -202,6 +202,9 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
         echo twig_escape_filter($this->env, (isset($context["torneo"]) ? $context["torneo"] : null), "html", null, true);
         echo "\"]');
         var selectTorneo = selectizeComponente('[name=\"jornada[torneo]\"]');
+        var selectEquipoLocal = selectizeComponente('[name=\"jornada[equipo_local]\"]');
+\t\t
+\t\t
 //        var selectTorneo = selectizeComponente({
 //            data: '[name=\"jornada[torneo]\"]',
 //            allowEmptyOption: true,
@@ -230,7 +233,7 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
 
         \$(\"#frmAgregar\").submit(function (event) {
             \$.post(\"";
-        // line 146
+        // line 149
         echo twig_escape_filter($this->env, (isset($context["base"]) ? $context["base"] : null), "html", null, true);
         echo "/calendario/guardar\", \$(\"#frmAgregar\").serialize(), function (data) {
                 if (data.tipoRespuesta === \"MENSAJE\" && data.tipoMensaje ===\"CORRECTO\") {
@@ -318,7 +321,7 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
 
     public function getDebugInfo()
     {
-        return array (  234 => 146,  202 => 117,  195 => 113,  164 => 85,  160 => 84,  156 => 83,  152 => 82,  148 => 81,  144 => 80,  140 => 79,  133 => 78,  129 => 76,  61 => 10,  58 => 9,  52 => 7,  48 => 6,  44 => 5,  37 => 4,  31 => 3,  11 => 2,);
+        return array (  237 => 149,  202 => 117,  195 => 113,  164 => 85,  160 => 84,  156 => 83,  152 => 82,  148 => 81,  144 => 80,  140 => 79,  133 => 78,  129 => 76,  61 => 10,  58 => 9,  52 => 7,  48 => 6,  44 => 5,  37 => 4,  31 => 3,  11 => 2,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -449,6 +452,9 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
         //var selectTorneo = getElements('[name=\"jornada[torneo]\"]');
         //var selectTorneo = selectizeComponente('[name=\"jornada[torneo]\"]','[value=\"[[torneo]]\"]');
         var selectTorneo = selectizeComponente('[name=\"jornada[torneo]\"]');
+        var selectEquipoLocal = selectizeComponente('[name=\"jornada[equipo_local]\"]');
+\t\t
+\t\t
 //        var selectTorneo = selectizeComponente({
 //            data: '[name=\"jornada[torneo]\"]',
 //            allowEmptyOption: true,
@@ -547,6 +553,6 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
         });
     });
 </script>
-[% endblock %]", "calendario.html", "C:\\wamp\\www\\starsoccerP\\ui\\modulos\\calendario\\html\\calendario.html");
+[% endblock %]", "calendario.html", "C:\\wamp3\\www\\starzoccer\\ui\\modulos\\calendario\\html\\calendario.html");
     }
 }
