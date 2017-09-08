@@ -17,9 +17,13 @@ class CalendarioController extends BaseController{
 
     public function index(){
         //$this->p
-        $equipos=array(1=>"Equipo Uno",2=>"Equipo Dos");
-        $this->parametros["equiposLocales"]=$equipos;
+//        $equipos=array(1=>"Equipo Uno",2=>"Equipo Dos");
+//        $this->parametros["equiposLocales"]=$equipos;
+        //$this->parametros["torneos"]=calendarioRepository->obtenerTorneos();
         $this->parametros["torneos"]=$this->calendarioRepository->obtenerTorneos();
+        $this->parametros["idtorneos"]=$this->calendarioRepository->obtenerTorneos();
+        $this->parametros["equiposLocales"]=$this->calendarioRepository->obtenerEquipos();
+        $this->parametros["equiposVisitantes"]=$this->calendarioRepository->obtenerEquipos();
         $this->render("calendario.html");
     }
 
@@ -40,13 +44,15 @@ class CalendarioController extends BaseController{
 
     public function guardar() {
         $calendario = $this->post("jornada");
+
         $this->validar($calendario);
+
         if (!empty($calendario['id_juego'])) {
-            $this->calendarioRepository->actualizar($calendario, 'calendario', 'id_juego');
+            $this->calendarioRepository->actualizar($calendario, 'jornada', 'id_juego');
             $mensaje = "La informacion se actualizo correctamente";
         }
         else {
-            $this->calendarioRepository->guardar($calendario, 'calendario');
+            $this->calendarioRepository->guardar($calendario, 'jornada');
             $mensaje = "La informacion se registro correctamente";
         }
         MensajeRespuesta::mensaje($mensaje);
@@ -54,24 +60,44 @@ class CalendarioController extends BaseController{
 
     private function validar($calendario) {
         $validadorUtil = new ValidadorUtil($calendario);
-        $validadorUtil->validarTexto("id_torneo", true, 3, 50, ExpresionRegularEnum::ALFA_MEXICO_ESPACIO);
-        $validadorUtil->validarTexto("id_equipo_local", true, 3, 50, ExpresionRegularEnum::ALFA_MEXICO_ESPACIO);
-        $validadorUtil->validarTexto("id_equipo_visita", true, 3, 50, ExpresionRegularEnum::ALFA_MEXICO_ESPACIO);
-        $validadorUtil->validarTexto("numero_jornada", true, 3, 50, ExpresionRegularEnum::ALFA_MEXICO_ESPACIO);
+
+        $validadorUtil->validarTexto("torneo", true, 1, 100);
+        $validadorUtil->validarTexto("equipo_local", true, 1, 100);
+        $validadorUtil->validarTexto("equipo_visita", true, 1, 100);
+        $validadorUtil->validarNumeroEntero("numero_jornada", true, 1, 100);
         $validadorUtil->validarFecha("fecha", true, '2017-05-01', '2030-05-01', "Y-m-d");
-        $validadorUtil->validarTexto("hora", true, 3, 50, ExpresionRegularEnum::ALFA_MEXICO_ESPACIO);
-        $validadorUtil->validarTexto("estatus", true, 3, 10, ExpresionRegularEnum::ALFA_MEXICO_ESPACIO);
+        $validadorUtil->validarTexto("hora", true, 3, 50);
+        $validadorUtil->validarTexto("estatus", true, 3, 50, ExpresionRegularEnum::ALFA_MEXICO_ESPACIO);
+
+        //para edit
         if (!empty($calendario['id_juego'])) {
             $validadorUtil->validarNumeroId("id_juego", true, 1);
         }
+        if (!empty($calendario['id_torneo'])) {
+            $validadorUtil->validarNumeroId("id_torneo", true, 1);
+        }
+        if (!empty($calendario['id_equipo_local'])) {
+            $validadorUtil->validarNumeroId("id_equipo_local", true, 1);
+        }
+        if (!empty($calendario['id_equipo_visita'])) {
+            $validadorUtil->validarNumeroId("id_equipo_visita", true, 1);
+        }
+
+
+
         $validadorUtil->agregarEtiquetas(
-            array('id_torneo' => 'id_torneo', 'id_equipo_local' => 'id_equipo_local', 'id_equipo_visita' => 'id_equipo_visita', 'numero_jornada' => 'numero_jornada', 'fecha' => 'fecha', 'hora' => 'hora', 'estatus' => 'estatus'));
+            array('torneo' => 'Torneo','equipo_local' => 'Equipo Local','equipo_visita' => 'Equipo Visita','numero_jornada' => 'Número de Jornada', 'fecha' => 'Fecha', 'hora' => 'Hora', 'estatus' => 'Estatus'));
+
         if (!$validadorUtil->validate()) {
             MensajeRespuesta::mensajesErrores($validadorUtil->getErrors());
         }
-        /* $existe=$this->calendarioRepository->existeGuardarEditarNombreCampo("regla",$regla,"regla","id_regla");
-         if($existe){
-             MensajeRespuesta::mensajeError('El nombre de la regla ya existe');
-         }*/
+//           $existe=$this->calendarioRepository->existeId("jornada","id_juego",$calendario['id_juego']);
+//         if($existe){
+//             MensajeRespuesta::mensajeError('El Juego ya existe');
+         //}
+         if ($calendario['id_equipo_local']==$calendario['id_equipo_visita']){
+             MensajeRespuesta::mensajeError('No se puede agregar un equipo dos veces');
+         }
+         //$existe=$this->calendarioRepository->
     }
 }

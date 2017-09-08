@@ -3,7 +3,12 @@
 class CalendarioRepository extends BaseRepository {
 
     public function obtenerTorneos(){
-        $this->sql='SELECT nombre FROM torneo';
+        $this->sql='SELECT id_torneo, nombre FROM torneo';
+        return $this->resultado();
+    }
+
+    public function obtenerEquipos(){
+        $this->sql='SELECT id_equipo, nombre FROM equipo';
         return $this->resultado();
     }
 

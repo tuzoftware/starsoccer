@@ -194,25 +194,9 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
         // line 113
         echo twig_escape_filter($this->env, (isset($context["base"]) ? $context["base"] : null), "html", null, true);
         echo "/calendario/buscar\", columnas, \"#frmBuscar\", 10);
-        //var  selectTorneo = obtenerSeleccionado('[name=\"jornada[torneo]\"]');
-        //var  selectTorneo = selector('[name=\"jornada[torneo]\"]');
-        //var selectTorneo = getElements('[name=\"jornada[torneo]\"]');
-        //var selectTorneo = selectizeComponente('[name=\"jornada[torneo]\"]','[value=\"";
-        // line 117
-        echo twig_escape_filter($this->env, (isset($context["torneo"]) ? $context["torneo"] : null), "html", null, true);
-        echo "\"]');
         var selectTorneo = selectizeComponente('[name=\"jornada[torneo]\"]');
         var selectEquipoLocal = selectizeComponente('[name=\"jornada[equipo_local]\"]');
-\t\t
-\t\t
-//        var selectTorneo = selectizeComponente({
-//            data: '[name=\"jornada[torneo]\"]',
-//            allowEmptyOption: true,
-//            create: true
-//        });
-        //var porId=document.getElementById(\"jornada[torneo]\").value;
-        //var selectTorneoFiltro = selectizeComponente('[name=\"filtros[estatus_busqueda]\"]');
-
+        var selectEquipoVisita = selectizeComponente('[name=\"jornada[equipo_visita]\"]');
 
         \$(\".form-group\").addClass(\"is-empty\");
 
@@ -233,7 +217,7 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
 
         \$(\"#frmAgregar\").submit(function (event) {
             \$.post(\"";
-        // line 149
+        // line 136
         echo twig_escape_filter($this->env, (isset($context["base"]) ? $context["base"] : null), "html", null, true);
         echo "/calendario/guardar\", \$(\"#frmAgregar\").serialize(), function (data) {
                 if (data.tipoRespuesta === \"MENSAJE\" && data.tipoMensaje ===\"CORRECTO\") {
@@ -269,21 +253,29 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
             baseComponente.ocultarErrores();
             baseComponente.limpiarFormulario(\"#frmAgregar\");
             if (tipo === false) {
-                \$('[name=\"jornada[id_juego]\"]').val(elemento['id_juego']);
-                \$('[name=\"jornada[id_torneo]\"]').val(elemento['id_torneo']);
-                \$('[name=\"jornada[id_equipo_local]\"]').val(elemento['id_equipo_local']);
-                \$('[name=\"jornada[id_equipo_visita]\"]').val(elemento['id_equipo_visita']);
-                \$('[name=\"jornada[torneo]\"]').val(elemento['nombre']);
-                \$('[name=\"jornada[equipo_local]\"]').val(elemento['equipolocal']);
-                \$('[name=\"jornada[equipo_visita]\"]').val(elemento['equipovisita']);
+                \$('[name=\"jornada[id_juego]\"]').val(elemento['id_juego']);//autoincrement
+                \$('[name=\"jornada[id_torneo]\"]').val(elemento['id_torneo']);//id
+                \$('[name=\"jornada[id_equipo_local]\"]').val(elemento['id_equipo_local']);//id
+                \$('[name=\"jornada[id_equipo_visita]\"]').val(elemento['id_equipo_visita']);//id
+
+                //\$('[name=\"jornada[torneo]\"]').val(elemento['nombre']);
+
+                selectTorneo.setValue(elemento['id_torneo']);
+                //\$('[name=\"jornada[equipo_local]\"]').val(elemento['equipolocal']);
+                selectEquipoLocal.setValue(elemento['id_equipo_local']);
+                //\$('[name=\"jornada[equipo_visita]\"]').val(elemento['equipovisita']);
+                selectEquipoVisita.setValue(elemento['id_equipo_visita']);
+
                 \$('[name=\"jornada[numero_jornada]\"]').val(elemento['numero_jornada']);
                 \$('[name=\"jornada[fecha]\"]').val(elemento['fecha']);
                 \$('[name=\"jornada[hora]\"]').val(elemento['hora']);
                 \$('[name=\"jornada[estatus]\"]').val(elemento['estatus']);
+
                 \$(\".modal-content .form-group\").removeClass(\"is-empty\");
                 //selectTorneo.setValue(elemento['nombre']);
             } else {
                 //\$(\".modal-content .form-group\").addClass(\"is-empty\");
+
                 \$(\".modal-content .form-group\").addClass(\"is-empty\");
                 \$('div.form-group').find('select').on('change',function () {
                     if (\$(this).find('option:selected').val() != '') {
@@ -321,7 +313,7 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
 
     public function getDebugInfo()
     {
-        return array (  237 => 149,  202 => 117,  195 => 113,  164 => 85,  160 => 84,  156 => 83,  152 => 82,  148 => 81,  144 => 80,  140 => 79,  133 => 78,  129 => 76,  61 => 10,  58 => 9,  52 => 7,  48 => 6,  44 => 5,  37 => 4,  31 => 3,  11 => 2,);
+        return array (  221 => 136,  195 => 113,  164 => 85,  160 => 84,  156 => 83,  152 => 82,  148 => 81,  144 => 80,  140 => 79,  133 => 78,  129 => 76,  61 => 10,  58 => 9,  52 => 7,  48 => 6,  44 => 5,  37 => 4,  31 => 3,  11 => 2,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -447,22 +439,9 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
         ];
 
         var dt = dataTableComponente(\"#tbl_tecnologia\", \"[[base]]/calendario/buscar\", columnas, \"#frmBuscar\", 10);
-        //var  selectTorneo = obtenerSeleccionado('[name=\"jornada[torneo]\"]');
-        //var  selectTorneo = selector('[name=\"jornada[torneo]\"]');
-        //var selectTorneo = getElements('[name=\"jornada[torneo]\"]');
-        //var selectTorneo = selectizeComponente('[name=\"jornada[torneo]\"]','[value=\"[[torneo]]\"]');
         var selectTorneo = selectizeComponente('[name=\"jornada[torneo]\"]');
         var selectEquipoLocal = selectizeComponente('[name=\"jornada[equipo_local]\"]');
-\t\t
-\t\t
-//        var selectTorneo = selectizeComponente({
-//            data: '[name=\"jornada[torneo]\"]',
-//            allowEmptyOption: true,
-//            create: true
-//        });
-        //var porId=document.getElementById(\"jornada[torneo]\").value;
-        //var selectTorneoFiltro = selectizeComponente('[name=\"filtros[estatus_busqueda]\"]');
-
+        var selectEquipoVisita = selectizeComponente('[name=\"jornada[equipo_visita]\"]');
 
         \$(\".form-group\").addClass(\"is-empty\");
 
@@ -516,21 +495,29 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
             baseComponente.ocultarErrores();
             baseComponente.limpiarFormulario(\"#frmAgregar\");
             if (tipo === false) {
-                \$('[name=\"jornada[id_juego]\"]').val(elemento['id_juego']);
-                \$('[name=\"jornada[id_torneo]\"]').val(elemento['id_torneo']);
-                \$('[name=\"jornada[id_equipo_local]\"]').val(elemento['id_equipo_local']);
-                \$('[name=\"jornada[id_equipo_visita]\"]').val(elemento['id_equipo_visita']);
-                \$('[name=\"jornada[torneo]\"]').val(elemento['nombre']);
-                \$('[name=\"jornada[equipo_local]\"]').val(elemento['equipolocal']);
-                \$('[name=\"jornada[equipo_visita]\"]').val(elemento['equipovisita']);
+                \$('[name=\"jornada[id_juego]\"]').val(elemento['id_juego']);//autoincrement
+                \$('[name=\"jornada[id_torneo]\"]').val(elemento['id_torneo']);//id
+                \$('[name=\"jornada[id_equipo_local]\"]').val(elemento['id_equipo_local']);//id
+                \$('[name=\"jornada[id_equipo_visita]\"]').val(elemento['id_equipo_visita']);//id
+
+                //\$('[name=\"jornada[torneo]\"]').val(elemento['nombre']);
+
+                selectTorneo.setValue(elemento['id_torneo']);
+                //\$('[name=\"jornada[equipo_local]\"]').val(elemento['equipolocal']);
+                selectEquipoLocal.setValue(elemento['id_equipo_local']);
+                //\$('[name=\"jornada[equipo_visita]\"]').val(elemento['equipovisita']);
+                selectEquipoVisita.setValue(elemento['id_equipo_visita']);
+
                 \$('[name=\"jornada[numero_jornada]\"]').val(elemento['numero_jornada']);
                 \$('[name=\"jornada[fecha]\"]').val(elemento['fecha']);
                 \$('[name=\"jornada[hora]\"]').val(elemento['hora']);
                 \$('[name=\"jornada[estatus]\"]').val(elemento['estatus']);
+
                 \$(\".modal-content .form-group\").removeClass(\"is-empty\");
                 //selectTorneo.setValue(elemento['nombre']);
             } else {
                 //\$(\".modal-content .form-group\").addClass(\"is-empty\");
+
                 \$(\".modal-content .form-group\").addClass(\"is-empty\");
                 \$('div.form-group').find('select').on('change',function () {
                     if (\$(this).find('option:selected').val() != '') {
@@ -553,6 +540,6 @@ class __TwigTemplate_9d86305422afc8b4aa22a109555f30211f95a30548026a939a7021f2b4a
         });
     });
 </script>
-[% endblock %]", "calendario.html", "C:\\wamp3\\www\\starzoccer\\ui\\modulos\\calendario\\html\\calendario.html");
+[% endblock %]", "calendario.html", "C:\\wamp\\www\\starsoccerP\\ui\\modulos\\calendario\\html\\calendario.html");
     }
 }

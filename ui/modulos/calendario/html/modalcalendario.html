@@ -1,9 +1,10 @@
 <div class="modal fade modal-danger" id="modalCalendario" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <form id="frmAgregar" class="pArrow-p-form p-form-pArrow-extra2color2">
-        <input type="hidden" name="jornada[id_juego]" id="id_juego"> <!--invisible--><!--autoincrementable-->
-        <input type="hidden" name="jornada[id_torneo]" id="id_torneo"> <!--recuperar id por nombre-->
+        <input type="hidden" name="jornada[id_juego]" id="id_juego"><!--invisible--><!--autoincrementable-->
+        <input type="hidden" name="jornada[id_torneo]"  id="id_torneo"> <!--recuperar id por nombre-->
         <input type="hidden" name="jornada[id_equipo_local]" id="id_equipo_local"> <!--recuperar id por nombre-->
         <input type="hidden" name="jornada[id_equipo_visita]" id="id_equipo_visita"> <!--recuperar id por nombre-->
+
         <div class="modal-dialog" style="width:900px;height:600px;" role="document">
             <div class="modal-content">
                 <div class="modal-header primary">
@@ -21,13 +22,13 @@
                                         <i class="fa fa-pencil"></i>
                                     </span>
                                     <label class="control-label">Torneo:</label> <!--Nombre del torneo-->
-                                    <select name="jornada[torneo]" placeholder="Seleccionar" required="required">
+                                    <select  name="jornada[torneo]" onchange="id_torneo.value=this.nextSibling.nextSibling.value = this.value"  placeholder="Seleccionar">
                                         <option value=""></option>
                                         [% for torneo in torneos %]
-                                        <option value="[[torneo.nombre]]">[[torneo.nombre]]</option>
+                                        <option value="[[torneo.id_torneo]]">[[torneo.nombre]]</option>
                                         [% endfor %]
                                     </select>
-                                </div>
+                                    </div>
                                 <span class="errores" data-error="torneo"><i class="fa fa-times"></i></span>
                             </div>
                         </div>
@@ -35,15 +36,16 @@
                     <!--equipo local-->
                     <div class="row">
                         <div class="col-md-11">
-                            <div class="form-group label-floating">
+                            <div class="form-group">
                                 <div class="input-group">
                                     <span class="input-group-addon">
                                         <i class="fa fa-pencil"></i>
                                     </span>
-                                    <select name="jornada[equipo_local]" placeholder="Seleccionar" required="required">
+                                    <label class="control-label">Equipo Local:</label>
+                                    <select  name="jornada[equipo_local]" onchange="id_equipo_local.value=this.nextSibling.nextSibling.value = this.value"  placeholder="Seleccionar">
                                         <option value=""></option>
                                         [% for equipoLocal in equiposLocales %]
-                                        <option value="[[equipoLocal]]">[[equipoLocal]]</option>
+                                        <option value="[[equipoLocal.id_equipo]]">[[equipoLocal.nombre]]</option>
                                         [% endfor %]
                                     </select>
 
@@ -55,13 +57,18 @@
                     <!--equipo visita-->
                     <div class="row">
                         <div class="col-md-11">
-                            <div class="form-group label-floating">
+                            <div class="form-group">
                                 <div class="input-group">
                                     <span class="input-group-addon">
                                         <i class="fa fa-pencil"></i>
                                     </span>
                                     <label class="control-label">Equipo Visita:</label>
-                                    <input type="text" name="jornada[equipo_visita]" class="form-control" required="required">
+                                    <select name="jornada[equipo_visita]" onchange="id_equipo_visita.value=this.nextSibling.nextSibling.value = this.value" placeholder="Seleccionar" >
+                                        <option value=""></option>
+                                        [% for equipoVisita in equiposVisitantes %]
+                                        <option value="[[equipoVisita.id_equipo]]">[[equipoVisita.nombre]]</option>
+                                        [% endfor %]
+                                    </select>
                                 </div>
                                 <span class="errores" data-error="equipo_visita"><i class="fa fa-times"></i></span>
                             </div>
@@ -76,7 +83,7 @@
                                         <i class="fa fa-pencil"></i>
                                     </span>
                                     <label class="control-label">Numero Jornada:</label>
-                                    <input type="number" name="jornada[numero_jornada]" class="form-control" required="required">
+                                    <input type="number" name="jornada[numero_jornada]" class="form-control">
                                 </div>
                                 <span class="errores" data-error="numero_jornada"><i class="fa fa-times"></i></span>
                             </div>
@@ -92,7 +99,7 @@
                                     </span>
                                     <label class="control-label">Fecha:</label>
                                     <input type="date" name="jornada[fecha]" min="2017-05-01"
-                                           max="2030-05-01" class="form-control" required="required">
+                                           max="2030-05-01" class="form-control" >
                                 </div>
                                 <span class="errores" data-error="fecha"><i class="fa fa-times"></i></span>
                             </div>
@@ -107,7 +114,7 @@
                                         <i class="fa fa-pencil"></i>
                                     </span>
                                     <label class="control-label">Hora:</label>
-                                    <input type="time" name="jornada[hora]" class="form-control" required="required">
+                                    <input type="time" name="jornada[hora]" class="form-control" >
                                 </div>
                                 <span class="errores" data-error="hora"><i class="fa fa-times"></i></span>
                             </div>
@@ -122,7 +129,7 @@
                                         <i class="fa fa-pencil"></i>
                                     </span>
                                     <label class="control-label">Estatus:</label>
-                                    <input type="text" name="jornada[estatus]" class="form-control" required="required">
+                                    <input type="text" name="jornada[estatus]" class="form-control" >
                                 </div>
                                 <span class="errores" data-error="estatus"><i class="fa fa-times"></i></span>
                             </div>

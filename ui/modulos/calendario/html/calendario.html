@@ -111,22 +111,9 @@
         ];
 
         var dt = dataTableComponente("#tbl_tecnologia", "[[base]]/calendario/buscar", columnas, "#frmBuscar", 10);
-        //var  selectTorneo = obtenerSeleccionado('[name="jornada[torneo]"]');
-        //var  selectTorneo = selector('[name="jornada[torneo]"]');
-        //var selectTorneo = getElements('[name="jornada[torneo]"]');
-        //var selectTorneo = selectizeComponente('[name="jornada[torneo]"]','[value="[[torneo]]"]');
         var selectTorneo = selectizeComponente('[name="jornada[torneo]"]');
         var selectEquipoLocal = selectizeComponente('[name="jornada[equipo_local]"]');
-		
-		
-//        var selectTorneo = selectizeComponente({
-//            data: '[name="jornada[torneo]"]',
-//            allowEmptyOption: true,
-//            create: true
-//        });
-        //var porId=document.getElementById("jornada[torneo]").value;
-        //var selectTorneoFiltro = selectizeComponente('[name="filtros[estatus_busqueda]"]');
-
+        var selectEquipoVisita = selectizeComponente('[name="jornada[equipo_visita]"]');
 
         $(".form-group").addClass("is-empty");
 
@@ -180,21 +167,29 @@
             baseComponente.ocultarErrores();
             baseComponente.limpiarFormulario("#frmAgregar");
             if (tipo === false) {
-                $('[name="jornada[id_juego]"]').val(elemento['id_juego']);
-                $('[name="jornada[id_torneo]"]').val(elemento['id_torneo']);
-                $('[name="jornada[id_equipo_local]"]').val(elemento['id_equipo_local']);
-                $('[name="jornada[id_equipo_visita]"]').val(elemento['id_equipo_visita']);
-                $('[name="jornada[torneo]"]').val(elemento['nombre']);
-                $('[name="jornada[equipo_local]"]').val(elemento['equipolocal']);
-                $('[name="jornada[equipo_visita]"]').val(elemento['equipovisita']);
+                $('[name="jornada[id_juego]"]').val(elemento['id_juego']);//autoincrement
+                $('[name="jornada[id_torneo]"]').val(elemento['id_torneo']);//id
+                $('[name="jornada[id_equipo_local]"]').val(elemento['id_equipo_local']);//id
+                $('[name="jornada[id_equipo_visita]"]').val(elemento['id_equipo_visita']);//id
+
+                //$('[name="jornada[torneo]"]').val(elemento['nombre']);
+
+                selectTorneo.setValue(elemento['id_torneo']);
+                //$('[name="jornada[equipo_local]"]').val(elemento['equipolocal']);
+                selectEquipoLocal.setValue(elemento['id_equipo_local']);
+                //$('[name="jornada[equipo_visita]"]').val(elemento['equipovisita']);
+                selectEquipoVisita.setValue(elemento['id_equipo_visita']);
+
                 $('[name="jornada[numero_jornada]"]').val(elemento['numero_jornada']);
                 $('[name="jornada[fecha]"]').val(elemento['fecha']);
                 $('[name="jornada[hora]"]').val(elemento['hora']);
                 $('[name="jornada[estatus]"]').val(elemento['estatus']);
+
                 $(".modal-content .form-group").removeClass("is-empty");
                 //selectTorneo.setValue(elemento['nombre']);
             } else {
                 //$(".modal-content .form-group").addClass("is-empty");
+
                 $(".modal-content .form-group").addClass("is-empty");
                 $('div.form-group').find('select').on('change',function () {
                     if ($(this).find('option:selected').val() != '') {
